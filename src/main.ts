@@ -834,6 +834,18 @@ function bindEvents() {
     render();
   });
 
+  // --- Mobile Nav Toggle (Hamburger) ---
+  const mobileToggle = document.querySelector('.mobile-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  if (mobileToggle && navLinks) {
+    mobileToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+  }
+
   // --- Dark / Light Mode Toggle ---
   document.querySelector('.js-theme-toggle')?.addEventListener('click', () => {
     state.darkMode = !state.darkMode;
