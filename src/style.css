@@ -2806,7 +2806,7 @@ body.light-mode footer {
 .about-story-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 8rem;
+  gap: clamp(2rem, 8vw, 8rem);
   align-items: center;
 }
 
@@ -2909,7 +2909,7 @@ body.light-mode footer {
 .founder-card {
   max-width: 860px;
   margin: 0 auto;
-  padding: 5rem;
+  padding: clamp(2rem, 6vw, 5rem);
   position: relative;
   text-align: center;
 }
@@ -3038,4 +3038,46 @@ body.light-mode footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
   }
+
+  .upsell-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .upsell-card {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: left;
+    padding: 1rem;
+  }
+
+  .upsell-card img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-wrapper {
+    margin-bottom: 0;
+    box-shadow: none;
+  }
+
+  .footer-parallax {
+    position: static;
+    height: auto;
+    padding: 4rem 1.5rem;
+  }
+}
+
+.theme-toggle svg,
+.ambient-btn svg,
+.wa-float svg {
+  display: block;
+}
+
+.ambient-btn.playing {
+  color: var(--accent-gold);
 }

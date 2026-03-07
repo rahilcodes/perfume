@@ -85,7 +85,9 @@ function initAmbientAudio() {
 function updateAmbientBtn() {
   const btn = document.querySelector('.js-ambient-toggle');
   if (btn) {
-    btn.textContent = ambientPlaying ? '🔊' : '🔈';
+    btn.innerHTML = ambientPlaying
+      ? `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>`
+      : `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/></svg>`;
     btn.classList.toggle('playing', ambientPlaying);
   }
 }
@@ -95,7 +97,7 @@ function showMusicToast() {
   if (existing) return;
   const toast = document.createElement('div');
   toast.id = 'music-toast';
-  toast.innerHTML = '🎵 Ambient music playing';
+  toast.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right:8px;vertical-align:middle"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg> Ambient music playing`;
   toast.style.cssText = `
     position:fixed;bottom:6rem;left:2rem;z-index:9998;
     background:rgba(11,11,11,0.9);backdrop-filter:blur(10px);
@@ -156,7 +158,9 @@ function render() {
           </div>
           <div class="nav-right">
             <button class="nav-icon-btn js-wishlist-nav" title="Wishlist">♡<span class="wishlist-count ${wishlistCount > 0 ? 'visible' : ''}">${wishlistCount}</span></button>
-            <button class="theme-toggle js-theme-toggle" title="Toggle Day/Night">${state.darkMode ? '☀️' : '🌙'}</button>
+            <button class="theme-toggle js-theme-toggle" title="Toggle Day/Night">
+              ${state.darkMode ? `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>` : `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>`}
+            </button>
             <div class="mobile-toggle">
               <span></span><span></span><span></span>
             </div>
@@ -201,8 +205,12 @@ function render() {
     </footer>
 
     <!-- Floating Buttons -->
-    <a class="wa-float" href="https://wa.me/918125320728" target="_blank" title="Chat on WhatsApp">💬</a>
-    <button class="ambient-btn js-ambient-toggle ${ambientPlaying ? 'playing' : ''}" title="Ambient Music">${ambientPlaying ? '🔊' : '🔈'}</button>
+    <a class="wa-float" href="https://wa.me/918125320728" target="_blank" title="Chat on WhatsApp">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-13.4 8.38 8.38 0 0 1 3.8.9L21 3z"/></svg>
+    </a>
+    <button class="ambient-btn js-ambient-toggle ${ambientPlaying ? 'playing' : ''}" title="Ambient Music">
+      ${ambientPlaying ? `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>` : `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/></svg>`}
+    </button>
   `
 
   // Apply dark mode on body immediately
