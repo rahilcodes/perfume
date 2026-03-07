@@ -110,7 +110,7 @@ function showMusicToast() {
 }
 
 async function init() {
-  const response = await fetch('/src/data/products.json');
+  const response = await fetch('src/data/products.json');
   state.products = await response.json();
   render();
 
