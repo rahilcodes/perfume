@@ -2711,3 +2711,331 @@ body.light-mode footer {
     gap: 2.5rem;
   }
 }
+
+/* ==========================================
+   CONTACT INFO ITEMS
+   ========================================== */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.contact-info-icon {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--accent-gold-soft);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-gold);
+  flex-shrink: 0;
+}
+
+.contact-info-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.contact-info-item h3 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--accent-gold);
+  margin-bottom: 0.4rem;
+  font-family: var(--font-body);
+}
+
+.contact-info-item p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ==========================================
+   QUIZ SVG ICON SIZING
+   ========================================== */
+.quiz-option-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: var(--accent-gold);
+  opacity: 0.8;
+}
+
+.quiz-option {
+  gap: 1rem;
+}
+
+/* ==========================================
+   ABOUT US PAGE
+   ========================================== */
+.about-hero {
+  padding: 14rem 0 8rem;
+}
+
+.about-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  color: var(--accent-gold);
+  margin-bottom: 2rem;
+}
+
+.about-label {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: var(--accent-gold);
+  margin-bottom: 1.5rem;
+}
+
+.about-section {
+  padding: 10rem 0;
+}
+
+.about-story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+  align-items: center;
+}
+
+.about-story-text h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+
+.about-story-text p {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.85;
+  margin-bottom: 1.5rem;
+}
+
+.about-story-text p em {
+  color: var(--accent-gold);
+  font-style: italic;
+}
+
+.about-story-image {
+  position: relative;
+}
+
+.about-story-image img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.about-image-caption {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--text-secondary);
+  margin-top: 1rem;
+  opacity: 0.6;
+}
+
+/* Pillars Grid */
+.about-pillars-section {
+  padding: 10rem 0;
+  background: var(--bg-secondary);
+}
+
+.about-pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.about-pillar {
+  padding: 3.5rem 2.5rem;
+  text-align: center;
+  transition: var(--transition-smooth);
+}
+
+.about-pillar:hover {
+  border-color: var(--accent-gold-soft);
+  transform: translateY(-8px);
+}
+
+.about-pillar-icon {
+  width: 64px;
+  height: 64px;
+  border: 1px solid var(--accent-gold-soft);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  color: var(--accent-gold);
+}
+
+.about-pillar-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.about-pillar h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.about-pillar p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+/* Founder Card */
+.about-founder-section {
+  padding: 10rem 0;
+}
+
+.founder-card {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 5rem;
+  position: relative;
+  text-align: center;
+}
+
+.founder-decoration {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  width: 80px;
+  opacity: 0.6;
+}
+
+.founder-quote {
+  font-family: var(--font-primary);
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  font-weight: 300;
+  line-height: 1.8;
+  color: var(--text-primary);
+  font-style: italic;
+  margin: 2rem 0 3rem;
+  position: relative;
+}
+
+.founder-signature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.founder-line {
+  flex: 1;
+  height: 1px;
+  background: var(--glass-border);
+  max-width: 120px;
+}
+
+.founder-name {
+  font-size: 1.2rem;
+  color: var(--accent-gold);
+  letter-spacing: 0.08em;
+}
+
+.founder-title {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--text-secondary);
+  margin-top: 0.3rem;
+}
+
+/* Numbers Grid */
+.about-numbers {
+  padding: 8rem 0 10rem;
+}
+
+.about-numbers-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.about-number {
+  text-align: center;
+  padding: 3rem 2rem;
+  border: 1px solid var(--glass-border);
+}
+
+.about-number-val {
+  display: block;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 300;
+  color: var(--accent-gold);
+  font-family: var(--font-primary);
+  margin-bottom: 0.5rem;
+}
+
+.about-number-label {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--text-secondary);
+}
+
+/* About mobile */
+@media (max-width: 1024px) {
+  .about-pillars-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 9rem 1.5rem 5rem;
+  }
+
+  .about-story-grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-story-image img {
+    height: 320px;
+  }
+
+  .about-pillars-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .about-pillar {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .founder-card {
+    padding: 3rem 1.5rem;
+  }
+
+  .founder-quote {
+    font-size: 1.1rem;
+  }
+
+  .about-numbers-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}

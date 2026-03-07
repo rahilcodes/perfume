@@ -150,6 +150,7 @@ function render() {
             <a href="#" data-route="Women">Women</a>
             <a href="#" data-route="Unisex">Unisex</a>
             <a href="#" data-route="Originals">Originals</a>
+            <a href="#" data-route="About">About Us</a>
             <a href="#" data-route="Quiz">Scent Quiz</a>
             <a href="#" data-route="Contact">Contact</a>
           </div>
@@ -195,9 +196,7 @@ function render() {
       </div>
       <div class="container footer-bottom">
         <p>&copy; 2026 ELIXIR ARTISTRY. All Rights Reserved.</p>
-        <div class="footer-payment-icons">
-          <span>UPID</span> <span>VISA</span> <span>MC</span>
-        </div>
+        <p style="font-size:0.75rem;opacity:0.5;margin-top:0.5rem">Designed &amp; Developed by <a href="https://creativals.com" target="_blank" style="color:var(--accent-gold);opacity:0.8;text-decoration:none;transition:opacity 0.3s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Creativals</a></p>
       </div>
     </footer>
 
@@ -221,6 +220,7 @@ function renderContent() {
   switch (state.currentCategory) {
     case 'Contact': return renderContact();
     case 'Terms': return renderTerms();
+    case 'About': return renderAbout();
     case 'Originals': return renderOriginals();
     case 'Quiz': return renderQuiz();
     case 'Wishlist': return renderWishlistPage();
@@ -234,7 +234,7 @@ function renderContent() {
         
         <div class="search-container reveal">
           <input type="text" class="search-input js-search-input" placeholder="Search our fragrance collection..." value="${state.searchQuery}">
-          <span class="search-icon">🔍</span>
+          <span class="search-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
         </div>
 
         <div class="product-grid" id="main-product-grid">
@@ -467,7 +467,7 @@ function renderContact() {
     <section class="page-hero">
       <div class="container">
         <h1>Connect With Us</h1>
-        <p>Experience luxury service. Reach out for inquiries or custom consultations.</p>
+        <p>We are here to guide you to your perfect scent. Reach out for personal consultations, gifting enquiries, or any assistance.</p>
       </div>
     </section>
     <section class="container contact-section">
@@ -486,23 +486,52 @@ function renderContact() {
               <label>Message</label>
               <textarea rows="5" placeholder="How can we help?"></textarea>
             </div>
-            <button type="button" class="btn btn-primary">Send Message</button>
+            <a href="https://wa.me/918125320728" target="_blank" class="btn btn-primary" style="display:block;text-align:center;text-decoration:none">Send via WhatsApp</a>
           </form>
         </div>
         <div class="contact-info reveal" style="animation-delay: 0.2s">
-          <h3>Visit Our Atelier</h3>
-          <p>123 Luxury Lane, Perfume District<br>Grasse, France</p>
-          <br>
-          <h3>Email Us</h3>
-          <p>concierge@elixirluxe.com</p>
-          <br>
-          <h3>Call Us</h3>
-          <p>+33 (0) 1 23 45 67 89</p>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h3>Our Atelier</h3>
+              <p>Banjara Hills, Hyderabad<br>Telangana, India</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <h3>Email Us</h3>
+              <p><a href="mailto:smellgood@elixirartistry.com" style="color:var(--accent-gold);text-decoration:none">smellgood@elixirartistry.com</a></p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/></svg>
+            </div>
+            <div>
+              <h3>WhatsApp</h3>
+              <p><a href="https://wa.me/918125320728" target="_blank" style="color:var(--accent-gold);text-decoration:none">+91 81253 20728</a></p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h3>Hours</h3>
+              <p>Mon – Sat: 10am – 7pm IST<br>Sunday: By Appointment</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   `;
 }
+
 
 function renderTerms() {
   return `
@@ -521,6 +550,117 @@ function renderTerms() {
         <br>
         <h3>3. Intellectual Property</h3>
         <p>All content on this site is the property of ELIXIR ARTISTRY.</p>
+      </div>
+    </section>
+  `;
+}
+
+function renderAbout(): string {
+  return `
+    <!-- Hero -->
+    <section class="page-hero about-hero">
+      <div class="container">
+        <p class="about-eyebrow">Est. 2024 · Banjara Hills, Hyderabad</p>
+        <h1>Where Fragrance<br>Becomes <em style="color:var(--accent-gold);font-style:italic">Art</em></h1>
+        <p style="max-width:600px;margin:2rem auto;color:var(--text-secondary);font-size:1.1rem;line-height:1.8">We did not set out to sell perfume. We set out to bottle an emotion.</p>
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section class="container about-section">
+      <div class="about-story-grid reveal">
+        <div class="about-story-text">
+          <div class="about-label">Our Philosophy</div>
+          <h2>Luxury is not a price tag.<br>It is a feeling.</h2>
+          <p>The world's most iconic fragrances were once only available to those who could afford their legacy. We asked a simple question: <em>Why?</em></p>
+          <p>At ELIXIR ARTISTRY, we source the same quality aromatic ingredients — raw oud from Assam, Bulgarian rose absolutes, Madagascan vanilla — and distill them into our own interpretations. Masterfully crafted. Honestly priced. Unapologetically luxurious.</p>
+          <p>Each fragrance is produced in small batches, hand-checked, and bottled with obsessive attention to the final drop.</p>
+        </div>
+        <div class="about-story-image">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" alt="Perfume craftsmanship" loading="lazy">
+          <div class="about-image-caption">Small-batch craftsmanship</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pillars -->
+    <section class="about-pillars-section">
+      <div class="container">
+        <div class="about-label" style="text-align:center">What We Stand For</div>
+        <h2 style="text-align:center;font-size:clamp(2rem,5vw,3.5rem);font-weight:300;margin-bottom:5rem">Our Commitments</h2>
+        <div class="about-pillars-grid">
+          <div class="about-pillar glass reveal">
+            <div class="about-pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M12 22V10"/><path d="M9 3c0 3.5 3 5 3 5s3-1.5 3-5"/><path d="M5 8c0 4 7 7 7 14"/><path d="M19 8c0 4-7 7-7 14"/></svg>
+            </div>
+            <h3>Rare Ingredients</h3>
+            <p>We work with the same oil distilleries and aromatic houses that supply the world's top fragrance maisons. No shortcuts. No compromises.</p>
+          </div>
+          <div class="about-pillar glass reveal" style="animation-delay:0.15s">
+            <div class="about-pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3>Small Batches</h3>
+            <p>Every collection is crafted in limited quantities — preserving quality, freshness, and the integrity of every note from the first spray to the last.</p>
+          </div>
+          <div class="about-pillar glass reveal" style="animation-delay:0.3s">
+            <div class="about-pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <h3>Cruelty Free</h3>
+            <p>All our formulations are tested without harm. We believe luxury and conscience must coexist — and that every scent should feel as good as it smells.</p>
+          </div>
+          <div class="about-pillar glass reveal" style="animation-delay:0.45s">
+            <div class="about-pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3>Honest Pricing</h3>
+            <p>The scent inside your bottle is everything. We cut the cost of excess packaging and brand tax — so your money goes where it matters: into the perfume.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Founder Note -->
+    <section class="about-founder-section reveal">
+      <div class="container">
+        <div class="founder-card glass">
+          <div class="founder-decoration">
+            <svg viewBox="0 0 100 30" fill="none"><text x="0" y="25" font-family="serif" font-size="80" fill="none" stroke="rgba(212,175,55,0.2)" stroke-width="1">"</text></svg>
+          </div>
+          <blockquote class="founder-quote">
+            I grew up surrounded by the bazaars of Hyderabad — tuberose garlands, burning oud, and the sweetness of saffron-soaked attar. Fragrance was never just luxury to me; it was life, memory, and identity. Every bottle of Elixir Artistry carries that belief: that your scent is your story, and it deserves to be told in the finest ink.
+          </blockquote>
+          <div class="founder-signature">
+            <div class="founder-info">
+              <div class="founder-name">Shadab Farzeen</div>
+              <div class="founder-title">Founder &amp; Magic Maker · ELIXIR ARTISTRY</div>
+            </div>
+            <div class="founder-line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Numbers / Trust -->
+    <section class="container about-numbers reveal">
+      <div class="about-numbers-grid">
+        <div class="about-number">
+          <span class="about-number-val">500+</span>
+          <span class="about-number-label">Happy Customers</span>
+        </div>
+        <div class="about-number">
+          <span class="about-number-val">4</span>
+          <span class="about-number-label">Curated Collections</span>
+        </div>
+        <div class="about-number">
+          <span class="about-number-val">100%</span>
+          <span class="about-number-label">Quality Guaranteed</span>
+        </div>
+        <div class="about-number">
+          <span class="about-number-val">48h</span>
+          <span class="about-number-label">Dispatch Promise</span>
+        </div>
       </div>
     </section>
   `;
@@ -1153,28 +1293,28 @@ function renderQuiz(): string {
         <div class="quiz-step active">
           <p class="quiz-question">What is your preferred scent profile?</p>
           <div class="quiz-options">
-            <button class="quiz-option js-quiz-option" data-step="0" data-value="wood"><span class="quiz-option-icon">🌿</span> Deep & Woody</button>
-            <button class="quiz-option js-quiz-option" data-step="0" data-value="floral"><span class="quiz-option-icon">🌹</span> Floral & Romantic</button>
-            <button class="quiz-option js-quiz-option" data-step="0" data-value="fresh"><span class="quiz-option-icon">🌊</span> Fresh & Airy</button>
-            <button class="quiz-option js-quiz-option" data-step="0" data-value="oriental"><span class="quiz-option-icon">✨</span> Oriental & Mysterious</button>
+            <button class="quiz-option js-quiz-option" data-step="0" data-value="wood"><svg class="quiz-option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22V10"/><path d="M9 3c0 3.5 3 5 3 5s3-1.5 3-5"/><path d="M5 8c0 4 7 7 7 14"/><path d="M19 8c0 4-7 7-7 14"/></svg> Deep &amp; Woody</button>
+            <button class="quiz-option js-quiz-option" data-step="0" data-value="floral"><svg class="quiz-option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"/><path d="M12 2a4 4 0 0 0 0 7 4 4 0 0 0 0-7z"/><path d="M12 15a4 4 0 0 0 0 7 4 4 0 0 0 0-7z"/><path d="M2 12a4 4 0 0 0 7 0 4 4 0 0 0-7 0z"/><path d="M15 12a4 4 0 0 0 7 0 4 4 0 0 0-7 0z"/></svg> Floral &amp; Romantic</button>
+            <button class="quiz-option js-quiz-option" data-step="0" data-value="fresh"><svg class="quiz-option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M2 12c3-6 9-10 10-10s7 4 10 10c-3 6-9 10-10 10S5 18 2 12z"/><circle cx="12" cy="12" r="3"/></svg> Fresh &amp; Airy</button>
+            <button class="quiz-option js-quiz-option" data-step="0" data-value="oriental"><svg class="quiz-option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Oriental &amp; Mysterious</button>
           </div>
         </div>
 
         <div class="quiz-step">
           <p class="quiz-question">Who is this fragrance for?</p>
           <div class="quiz-options">
-            <button class="quiz-option js-quiz-option" data-step="1" data-value="masculine"><span class="quiz-option-icon">🕴️</span> Him</button>
-            <button class="quiz-option js-quiz-option" data-step="1" data-value="feminine"><span class="quiz-option-icon">👗</span> Her</button>
-            <button class="quiz-option js-quiz-option" data-step="1" data-value="unisex"><span class="quiz-option-icon">🤝</span> Both of us</button>
+            <button class="quiz-option js-quiz-option" data-step="1" data-value="masculine"><svg class="quiz-option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> Him</button>
+            <button class="quiz-option js-quiz-option" data-step="1" data-value="feminine"><svg class="quiz-option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="8" r="4"/><path d="M12 12v10M9 19h6"/></svg> Her</button>
+            <button class="quiz-option js-quiz-option" data-step="1" data-value="unisex"><svg class="quiz-option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Both of us</button>
           </div>
         </div>
 
         <div class="quiz-step">
           <p class="quiz-question">What is the occasion?</p>
           <div class="quiz-options">
-            <button class="quiz-option js-quiz-option" data-step="2" data-value="daily"><span class="quiz-option-icon">☀️</span> Everyday wear</button>
-            <button class="quiz-option js-quiz-option" data-step="2" data-value="evening"><span class="quiz-option-icon">🌙</span> Evening & Events</button>
-            <button class="quiz-option js-quiz-option" data-step="2" data-value="special"><span class="quiz-option-icon">💎</span> Special Occasion</button>
+            <button class="quiz-option js-quiz-option" data-step="2" data-value="daily"><svg class="quiz-option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/></svg> Everyday wear</button>
+            <button class="quiz-option js-quiz-option" data-step="2" data-value="evening"><svg class="quiz-option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg> Evening &amp; Events</button>
+            <button class="quiz-option js-quiz-option" data-step="2" data-value="special"><svg class="quiz-option-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Special Occasion</button>
           </div>
         </div>
 
