@@ -56,7 +56,7 @@ let ambientPlaying = false;
 
 function initAmbientAudio() {
   if (ambientAudio) return;
-  ambientAudio = new Audio('/music.mp3');
+  ambientAudio = new Audio('music.mp3');
   ambientAudio.loop = true;
   ambientAudio.volume = 0.3;
   // Try to play immediately
@@ -110,7 +110,7 @@ function showMusicToast() {
 }
 
 async function init() {
-  const response = await fetch('./src/data/products.json');
+  const response = await fetch('data/products.json');
   state.products = await response.json();
   render();
 

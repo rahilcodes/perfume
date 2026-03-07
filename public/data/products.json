@@ -1,0 +1,173 @@
+[
+    {
+        "id": "m1",
+        "name": "Midnight Oud",
+        "category": "Men",
+        "inspiredBy": "Tom Ford Oud Wood",
+        "price": 999,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 999
+            },
+            {
+                "ml": 60,
+                "price": 1799
+            },
+            {
+                "ml": 100,
+                "price": 2499
+            }
+        ],
+        "notes": {
+            "top": [
+                "Cardamom",
+                "Spicy Pepper"
+            ],
+            "heart": [
+                "Oud Wood",
+                "Rosewood"
+            ],
+            "base": [
+                "Sandalwood",
+                "Vetiver",
+                "Amber"
+            ]
+        },
+        "images": [
+            "male.png",
+            "https://images.unsplash.com/photo-1619994403073-2cec844b8e63?auto=format&fit=crop&w=800&q=80",
+            "https://images.unsplash.com/photo-1541643600914-78b084683702?auto=format&fit=crop&w=800&q=80"
+        ],
+        "image": "male.png",
+        "description": "A dark, cinematic descent into refined masculinity. Rare oud wood is masterfully blended with rosewood and cardamom, unfolding into a smoky blend of rare sandalwood and vetiver. An uncompromising masterpiece designed for the commanding presence."
+    },
+    {
+        "id": "w1",
+        "name": "Velvet Rose",
+        "category": "Women",
+        "inspiredBy": "Parfums de Marly Delina",
+        "price": 1099,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 1099
+            },
+            {
+                "ml": 60,
+                "price": 1999
+            },
+            {
+                "ml": 100,
+                "price": 2699
+            }
+        ],
+        "notes": {
+            "top": [
+                "Bergamot",
+                "Nutmeg"
+            ],
+            "heart": [
+                "Turkish Rose",
+                "Peony",
+                "Lily"
+            ],
+            "base": [
+                "Musk",
+                "Cedar",
+                "Amber"
+            ]
+        },
+        "images": [
+            "female.png",
+            "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80",
+            "https://images.unsplash.com/photo-1592945403407-9caf930ffd56?auto=format&fit=crop&w=800&q=80"
+        ],
+        "image": "female.png",
+        "description": "A sensual floral bouquet dominated by turkish rose, lily of the valley and peony. Luminous and sophisticated. This poetic alchemy lays on the skin like an amber floral and woody breeze."
+    },
+    {
+        "id": "u1",
+        "name": "Azure Coast",
+        "category": "Unisex",
+        "inspiredBy": "MFK Baccarat Rouge 540",
+        "price": 1299,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 1299
+            },
+            {
+                "ml": 60,
+                "price": 2399
+            },
+            {
+                "ml": 100,
+                "price": 3199
+            }
+        ],
+        "notes": {
+            "top": [
+                "Jasmine",
+                "Saffron"
+            ],
+            "heart": [
+                "Cedarwood",
+                "Ambergris"
+            ],
+            "base": [
+                "Fir Resin",
+                "Oakmoss"
+            ]
+        },
+        "images": [
+            "unisex.png",
+            "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=800&q=80",
+            "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?auto=format&fit=crop&w=800&q=80"
+        ],
+        "image": "unisex.png",
+        "description": "An alchemy of jasmine, saffron, and cedarwood. Ethereal and intense. Aerial notes of jasmine and the radiance of saffron carry woody tones of freshly cut cedar. A graphic, highly condensed signature."
+    },
+    {
+        "id": "o1",
+        "name": "Ethereal Aura",
+        "category": "Originals",
+        "inspiredBy": "Original Creation",
+        "price": 1699,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 1699
+            },
+            {
+                "ml": 60,
+                "price": 2999
+            },
+            {
+                "ml": 100,
+                "price": 3999
+            }
+        ],
+        "notes": {
+            "top": [
+                "White Truffle",
+                "Bergamot"
+            ],
+            "heart": [
+                "Black Orchid",
+                "Dark Spices"
+            ],
+            "base": [
+                "White Musk",
+                "Crystalline Amber"
+            ]
+        },
+        "images": [
+            "private_blend.png",
+            "https://images.unsplash.com/photo-1500217052183-bc01eee1a74e?auto=format&fit=crop&w=800&q=80",
+            "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=800&q=80"
+        ],
+        "image": "private_blend.png",
+        "description": "Our signature masterpiece, born from pure inspiration. A timeless exploration of white musk and crystalline amber. Opening with a flash of rare white truffle and Sicilian bergamot, descending into a heart of black orchid and dark spices. Exclusively ours, unequivocally yours."
+    }
+]
