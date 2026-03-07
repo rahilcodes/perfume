@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-    // Use relative base path so it works on any subdirectory (like github.io/repo-name/)
-    base: './',
+    // Set base path for GitHub Pages subfolder
+    base: '/perfume/',
     build: {
         outDir: 'dist',
     },
