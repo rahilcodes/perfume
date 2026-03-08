@@ -16,6 +16,7 @@ interface Product {
   images: string[];
   image: string;
   description: string;
+  intensity: { sillage: number; projection: number; longevity: number };
 }
 
 // Simple Router / State Management
@@ -111,9 +112,18 @@ function showMusicToast() {
   setTimeout(() => toast.remove(), 3600);
 }
 
+function shuffleArray<T>(array: T[]): T[] {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 async function init() {
   const response = await fetch('data/products.json');
-  state.products = await response.json();
+  const data = await response.json();
+  state.products = shuffleArray(data);
   render();
 
   // Auto-start ambient music (plays immediately or on first interaction)
@@ -303,6 +313,47 @@ function renderProductDetail(product: Product) {
           <p class="inspired">${product.inspiredBy === 'Original Creation' ? 'Exclusive Selection' : 'Inspired by ' + product.inspiredBy}</p>
           <div class="note-tags" style="margin-bottom:2rem">${noteTags}</div>
           <p class="description">${product.description}</p>
+          
+          <div class="intensity-section reveal">
+            <div class="intensity-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+              </svg>
+              <span>Intensity</span>
+            </div>
+            <div class="intensity-bars">
+              <div class="intensity-item">
+                <div class="intensity-label-row">
+                  <span class="intensity-label">Sillage</span>
+                  <div class="intensity-icon">👣</div>
+                </div>
+                <div class="intensity-bar-wrapper">
+                  <div class="intensity-bar" style="width: ${product.intensity.sillage}%"></div>
+                </div>
+                <span class="intensity-desc">the trail your perfume leaves behind</span>
+              </div>
+              <div class="intensity-item">
+                <div class="intensity-label-row">
+                  <span class="intensity-label">Projection</span>
+                  <div class="intensity-icon">🔆</div>
+                </div>
+                <div class="intensity-bar-wrapper">
+                  <div class="intensity-bar" style="width: ${product.intensity.projection}%"></div>
+                </div>
+                <span class="intensity-desc">the reach of your scent</span>
+              </div>
+              <div class="intensity-item">
+                <div class="intensity-label-row">
+                  <span class="intensity-label">Longevity</span>
+                  <div class="intensity-icon">🕒</div>
+                </div>
+                <div class="intensity-bar-wrapper">
+                  <div class="intensity-bar" style="width: ${product.intensity.longevity}%"></div>
+                </div>
+                <span class="intensity-desc">how long your scent lasts</span>
+              </div>
+            </div>
+          </div>
           
           <div class="size-selector-detail reveal">
             <p class="selector-label">Select Size</p>

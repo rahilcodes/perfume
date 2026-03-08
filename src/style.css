@@ -3081,3 +3081,88 @@ body.light-mode footer {
 .ambient-btn.playing {
   color: var(--accent-gold);
 }
+/* --- Intensity Section (Product Detail) --- */
+.intensity-section {
+  margin: 3rem 0;
+  padding: 2.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.1);
+  border-radius: 4px;
+}
+
+.intensity-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  color: var(--accent-gold);
+}
+
+.intensity-header span {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.intensity-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.intensity-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.intensity-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intensity-label {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+}
+
+.intensity-icon {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.intensity-bar-wrapper {
+  height: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.intensity-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #111 0%, var(--accent-gold) 100%);
+  border-radius: 50px;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+  transition: width 1.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.intensity-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  opacity: 0.7;
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+/* Mobile Adjustments for Intensity */
+@media (max-width: 768px) {
+  .intensity-section {
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+}

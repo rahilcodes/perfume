@@ -40,7 +40,12 @@
             "private_blend.png"
         ],
         "image": "private_blend.png",
-        "description": "A regal fragrance born from the vast silence of desert sands. Bright bergamot and aromatic spices rise into a powerful heart of oud and amber before settling into smoky leather and vetiver. Majestic, mysterious, and commanding."
+        "description": "A regal fragrance born from the vast silence of desert sands. Bright bergamot and aromatic spices rise into a powerful heart of oud and amber before settling into smoky leather and vetiver. Majestic, mysterious, and commanding.",
+        "intensity": {
+            "sillage": 89,
+            "projection": 88,
+            "longevity": 94
+        }
     },
     {
         "id": "p2",
@@ -83,7 +88,12 @@
             "private_blend.png"
         ],
         "image": "private_blend.png",
-        "description": "A smoldering fragrance that balances fruit brightness with deep smoky warmth. Juicy plum and pineapple ignite the opening before tobacco and woods create a rich, sensual trail. Bold, addictive, and unforgettable."
+        "description": "A smoldering fragrance that balances fruit brightness with deep smoky warmth. Juicy plum and pineapple ignite the opening before tobacco and woods create a rich, sensual trail. Bold, addictive, and unforgettable.",
+        "intensity": {
+            "sillage": 92,
+            "projection": 93,
+            "longevity": 99
+        }
     },
     {
         "id": "p3",
@@ -126,7 +136,12 @@
             "private_blend.png"
         ],
         "image": "private_blend.png",
-        "description": "A golden nectar of warmth and sweetness. Rich honey and cinnamon melt into glowing amber resins and creamy vanilla. Luxurious, comforting, and irresistibly smooth."
+        "description": "A golden nectar of warmth and sweetness. Rich honey and cinnamon melt into glowing amber resins and creamy vanilla. Luxurious, comforting, and irresistibly smooth.",
+        "intensity": {
+            "sillage": 89,
+            "projection": 95,
+            "longevity": 92
+        }
     },
     {
         "id": "p4",
@@ -169,7 +184,12 @@
             "private_blend.png"
         ],
         "image": "private_blend.png",
-        "description": "An intense symphony of spices, resins, and deep woods. Frankincense and cardamom ignite the opening before saffron and rose create a luxurious heart. The powerful base of oud and amber leaves an unforgettable signature."
+        "description": "An intense symphony of spices, resins, and deep woods. Frankincense and cardamom ignite the opening before saffron and rose create a luxurious heart. The powerful base of oud and amber leaves an unforgettable signature.",
+        "intensity": {
+            "sillage": 88,
+            "projection": 92,
+            "longevity": 97
+        }
     },
     {
         "id": "p5",
@@ -212,7 +232,12 @@
             "private_blend.png"
         ],
         "image": "private_blend.png",
-        "description": "A velvety rose fragrance wrapped in sweet luxury. Juicy strawberry and delicate violet bloom into opulent Turkish rose before melting into creamy vanilla and oud. Soft, sensual, and regal."
+        "description": "A velvety rose fragrance wrapped in sweet luxury. Juicy strawberry and delicate violet bloom into opulent Turkish rose before melting into creamy vanilla and oud. Soft, sensual, and regal.",
+        "intensity": {
+            "sillage": 86,
+            "projection": 88,
+            "longevity": 93
+        }
     },
     {
         "id": "p6",
@@ -255,7 +280,12 @@
             "private_blend.png"
         ],
         "image": "private_blend.png",
-        "description": "A modern amber fragrance built on depth and elegance. Bright citrus and ambroxan evolve into smooth florals and glowing woods. Sophisticated, mysterious, and deeply addictive."
+        "description": "A modern amber fragrance built on depth and elegance. Bright citrus and ambroxan evolve into smooth florals and glowing woods. Sophisticated, mysterious, and deeply addictive.",
+        "intensity": {
+            "sillage": 92,
+            "projection": 94,
+            "longevity": 91
+        }
     },
     {
         "id": "p7",
@@ -296,7 +326,12 @@
             "private_blend.png"
         ],
         "image": "private_blend.png",
-        "description": "Dark, intense, and dangerously seductive. Fiery saffron and pepper ignite the senses before deep oud and patchouli dominate the heart. A smoky amber base leaves a bold and unforgettable trail."
+        "description": "Dark, intense, and dangerously seductive. Fiery saffron and pepper ignite the senses before deep oud and patchouli dominate the heart. A smoky amber base leaves a bold and unforgettable trail.",
+        "intensity": {
+            "sillage": 85,
+            "projection": 91,
+            "longevity": 98
+        }
     },
     {
         "id": "m2",
@@ -339,7 +374,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "A deep oceanic expression of modern masculinity. Sparkling citrus and mint ignite the opening before warm spices and elegant woods unfold. The smoky sandalwood base creates a powerful yet sophisticated trail."
+        "description": "A deep oceanic expression of modern masculinity. Sparkling citrus and mint ignite the opening before warm spices and elegant woods unfold. The smoky sandalwood base creates a powerful yet sophisticated trail.",
+        "intensity": {
+            "sillage": 86,
+            "projection": 92,
+            "longevity": 85
+        }
     },
     {
         "id": "m3",
@@ -382,7 +422,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "Bold, intense, and unapologetically powerful. Aromatic lavender collides with dark spices and smoky woods to create a commanding presence. The rich amber base leaves a magnetic, long-lasting signature."
+        "description": "Bold, intense, and unapologetically powerful. Aromatic lavender collides with dark spices and smoky woods to create a commanding presence. The rich amber base leaves a magnetic, long-lasting signature.",
+        "intensity": {
+            "sillage": 77,
+            "projection": 86,
+            "longevity": 87
+        }
     },
     {
         "id": "m4",
@@ -425,7 +470,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "Fresh ocean waves meet volcanic earth. Aromatic herbs and aquatic accords glide over a deep incense base, creating a refined Mediterranean aura. Clean, mysterious, and endlessly elegant."
+        "description": "Fresh ocean waves meet volcanic earth. Aromatic herbs and aquatic accords glide over a deep incense base, creating a refined Mediterranean aura. Clean, mysterious, and endlessly elegant.",
+        "intensity": {
+            "sillage": 75,
+            "projection": 87,
+            "longevity": 95
+        }
     },
     {
         "id": "m5",
@@ -468,7 +518,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "Seductive and energetic, this fragrance radiates confidence. Bright mint and apple spark the opening before melting into creamy tonka and vanilla. A sensual woody base leaves a powerful impression."
+        "description": "Seductive and energetic, this fragrance radiates confidence. Bright mint and apple spark the opening before melting into creamy tonka and vanilla. A sensual woody base leaves a powerful impression.",
+        "intensity": {
+            "sillage": 82,
+            "projection": 84,
+            "longevity": 91
+        }
     },
     {
         "id": "m6",
@@ -511,7 +566,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "Earthy elegance captured in a bottle. Zesty citrus meets mineral warmth and smoky woods for a refined masculine scent. Sophisticated, grounded, and timeless."
+        "description": "Earthy elegance captured in a bottle. Zesty citrus meets mineral warmth and smoky woods for a refined masculine scent. Sophisticated, grounded, and timeless.",
+        "intensity": {
+            "sillage": 78,
+            "projection": 82,
+            "longevity": 94
+        }
     },
     {
         "id": "m7",
@@ -554,7 +614,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "Modern freshness with a bold masculine edge. Crisp apple and ginger lead into aromatic sage before settling into warm amber woods. Clean, confident, and effortlessly stylish."
+        "description": "Modern freshness with a bold masculine edge. Crisp apple and ginger lead into aromatic sage before settling into warm amber woods. Clean, confident, and effortlessly stylish.",
+        "intensity": {
+            "sillage": 88,
+            "projection": 85,
+            "longevity": 95
+        }
     },
     {
         "id": "m8",
@@ -597,7 +662,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "An elegant interpretation of masculine refinement. Powdery iris and soft cocoa create a luxurious heart wrapped in smooth woods. Deeply sensual yet sophisticated."
+        "description": "An elegant interpretation of masculine refinement. Powdery iris and soft cocoa create a luxurious heart wrapped in smooth woods. Deeply sensual yet sophisticated.",
+        "intensity": {
+            "sillage": 76,
+            "projection": 82,
+            "longevity": 90
+        }
     },
     {
         "id": "m9",
@@ -640,7 +710,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "Vibrant energy meets refined style. Fresh citrus and oceanic air collide with warm woods and tonka. A dynamic fragrance built for movement and confidence."
+        "description": "Vibrant energy meets refined style. Fresh citrus and oceanic air collide with warm woods and tonka. A dynamic fragrance built for movement and confidence.",
+        "intensity": {
+            "sillage": 85,
+            "projection": 87,
+            "longevity": 82
+        }
     },
     {
         "id": "m10",
@@ -683,7 +758,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "Clean, sophisticated, and modern. Powdery iris blends seamlessly with warm amber and subtle spice. A polished scent that embodies understated luxury."
+        "description": "Clean, sophisticated, and modern. Powdery iris blends seamlessly with warm amber and subtle spice. A polished scent that embodies understated luxury.",
+        "intensity": {
+            "sillage": 77,
+            "projection": 87,
+            "longevity": 95
+        }
     },
     {
         "id": "m11",
@@ -726,7 +806,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "Crafted for the modern adventurer. Sparkling bergamot opens the journey before smoky vetiver and leather reveal a rugged elegance. A powerful trail built for exploration."
+        "description": "Crafted for the modern adventurer. Sparkling bergamot opens the journey before smoky vetiver and leather reveal a rugged elegance. A powerful trail built for exploration.",
+        "intensity": {
+            "sillage": 87,
+            "projection": 79,
+            "longevity": 83
+        }
     },
     {
         "id": "m12",
@@ -769,7 +854,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "A symbol of power and success. Juicy pineapple meets smoky birch and refined musk, creating a bold yet sophisticated signature. Confident, iconic, unforgettable."
+        "description": "A symbol of power and success. Juicy pineapple meets smoky birch and refined musk, creating a bold yet sophisticated signature. Confident, iconic, unforgettable.",
+        "intensity": {
+            "sillage": 76,
+            "projection": 81,
+            "longevity": 94
+        }
     },
     {
         "id": "m13",
@@ -812,7 +902,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "Royal elegance with irresistible charm. Crisp apple and lavender bloom into warm vanilla and woods. Smooth, sensual, and luxurious."
+        "description": "Royal elegance with irresistible charm. Crisp apple and lavender bloom into warm vanilla and woods. Smooth, sensual, and luxurious.",
+        "intensity": {
+            "sillage": 84,
+            "projection": 83,
+            "longevity": 88
+        }
     },
     {
         "id": "m14",
@@ -855,7 +950,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "Dark sweetness wrapped in noble sophistication. Warm spices and fruits melt into creamy vanilla and resinous woods. Deep, rich, and commanding."
+        "description": "Dark sweetness wrapped in noble sophistication. Warm spices and fruits melt into creamy vanilla and resinous woods. Deep, rich, and commanding.",
+        "intensity": {
+            "sillage": 81,
+            "projection": 90,
+            "longevity": 85
+        }
     },
     {
         "id": "m15",
@@ -898,7 +998,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "A majestic tribute to the power of oud. Spices ignite the opening before deep smoky woods take control. Bold, luxurious, and unforgettable."
+        "description": "A majestic tribute to the power of oud. Spices ignite the opening before deep smoky woods take control. Bold, luxurious, and unforgettable.",
+        "intensity": {
+            "sillage": 75,
+            "projection": 81,
+            "longevity": 95
+        }
     },
     {
         "id": "m16",
@@ -941,7 +1046,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "An explosive blend of warmth and seduction. Spices ignite the senses while tobacco and vanilla deliver deep sensuality. Powerful and intensely masculine."
+        "description": "An explosive blend of warmth and seduction. Spices ignite the senses while tobacco and vanilla deliver deep sensuality. Powerful and intensely masculine.",
+        "intensity": {
+            "sillage": 80,
+            "projection": 81,
+            "longevity": 89
+        }
     },
     {
         "id": "m17",
@@ -984,7 +1094,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "A timeless gentleman’s scent. Warm spices and citrus lead into rich tobacco and amber. Elegant, charismatic, and irresistibly masculine."
+        "description": "A timeless gentleman’s scent. Warm spices and citrus lead into rich tobacco and amber. Elegant, charismatic, and irresistibly masculine.",
+        "intensity": {
+            "sillage": 78,
+            "projection": 89,
+            "longevity": 82
+        }
     },
     {
         "id": "m18",
@@ -1027,7 +1142,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "A bold fragrance built for confidence. Sweet caramel and warm spices create an addictive warmth. Seductive and daring."
+        "description": "A bold fragrance built for confidence. Sweet caramel and warm spices create an addictive warmth. Seductive and daring.",
+        "intensity": {
+            "sillage": 84,
+            "projection": 85,
+            "longevity": 83
+        }
     },
     {
         "id": "m19",
@@ -1070,7 +1190,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "Dark elegance wrapped in warmth. Aromatic lavender meets creamy tonka and deep amber. Perfect for evening sophistication."
+        "description": "Dark elegance wrapped in warmth. Aromatic lavender meets creamy tonka and deep amber. Perfect for evening sophistication.",
+        "intensity": {
+            "sillage": 81,
+            "projection": 90,
+            "longevity": 83
+        }
     },
     {
         "id": "m20",
@@ -1113,7 +1238,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "A dramatic symphony of smoke and spice. Resinous incense swirls with powerful woods to create a bold olfactory statement. Deep, mysterious, unforgettable."
+        "description": "A dramatic symphony of smoke and spice. Resinous incense swirls with powerful woods to create a bold olfactory statement. Deep, mysterious, unforgettable.",
+        "intensity": {
+            "sillage": 84,
+            "projection": 81,
+            "longevity": 87
+        }
     },
     {
         "id": "m21",
@@ -1156,7 +1286,12 @@
             "male.png"
         ],
         "image": "male.png",
-        "description": "A luxurious scent of intrigue and seduction. Boozy cognac notes blend with warm tobacco and vanilla. Opulent, mysterious, and intensely refined."
+        "description": "A luxurious scent of intrigue and seduction. Boozy cognac notes blend with warm tobacco and vanilla. Opulent, mysterious, and intensely refined.",
+        "intensity": {
+            "sillage": 77,
+            "projection": 85,
+            "longevity": 90
+        }
     },
     {
         "id": "w2",
@@ -1199,7 +1334,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A luminous fragrance that embodies Parisian elegance. Sparkling citrus and delicate florals bloom into a warm, sensual base of patchouli and vanilla. Chic, timeless, and effortlessly feminine."
+        "description": "A luminous fragrance that embodies Parisian elegance. Sparkling citrus and delicate florals bloom into a warm, sensual base of patchouli and vanilla. Chic, timeless, and effortlessly feminine.",
+        "intensity": {
+            "sillage": 82,
+            "projection": 79,
+            "longevity": 92
+        }
     },
     {
         "id": "w3",
@@ -1242,7 +1382,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "Radiant florals unfold in a graceful symphony of femininity. Lush jasmine and rose glide over soft woods and creamy musk. Elegant, luminous, and irresistibly refined."
+        "description": "Radiant florals unfold in a graceful symphony of femininity. Lush jasmine and rose glide over soft woods and creamy musk. Elegant, luminous, and irresistibly refined.",
+        "intensity": {
+            "sillage": 83,
+            "projection": 75,
+            "longevity": 79
+        }
     },
     {
         "id": "w4",
@@ -1285,7 +1430,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A garden captured at its most beautiful moment. White florals bloom with intoxicating richness and softness. Romantic, delicate, and deeply feminine."
+        "description": "A garden captured at its most beautiful moment. White florals bloom with intoxicating richness and softness. Romantic, delicate, and deeply feminine.",
+        "intensity": {
+            "sillage": 71,
+            "projection": 81,
+            "longevity": 84
+        }
     },
     {
         "id": "w5",
@@ -1328,7 +1478,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "Bold freedom wrapped in sensual elegance. Aromatic lavender meets creamy vanilla and luminous florals. Confident, modern, and empowering."
+        "description": "Bold freedom wrapped in sensual elegance. Aromatic lavender meets creamy vanilla and luminous florals. Confident, modern, and empowering.",
+        "intensity": {
+            "sillage": 77,
+            "projection": 79,
+            "longevity": 88
+        }
     },
     {
         "id": "w6",
@@ -1371,7 +1526,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A modern fragrance of strength and grace. Sparkling fruits blend with radiant roses before settling into soft woods and vanilla. Clean, luminous, and inspiring."
+        "description": "A modern fragrance of strength and grace. Sparkling fruits blend with radiant roses before settling into soft woods and vanilla. Clean, luminous, and inspiring.",
+        "intensity": {
+            "sillage": 81,
+            "projection": 78,
+            "longevity": 86
+        }
     },
     {
         "id": "w7",
@@ -1414,7 +1574,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A soft breeze of youthful elegance. Delicate florals float over sparkling citrus and gentle musk. Fresh, graceful, and beautifully uplifting."
+        "description": "A soft breeze of youthful elegance. Delicate florals float over sparkling citrus and gentle musk. Fresh, graceful, and beautifully uplifting.",
+        "intensity": {
+            "sillage": 71,
+            "projection": 75,
+            "longevity": 92
+        }
     },
     {
         "id": "w8",
@@ -1457,7 +1622,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "An explosion of luxurious flowers and sensual sweetness. Rich florals bloom over creamy vanilla and patchouli. Bold, glamorous, and captivating."
+        "description": "An explosion of luxurious flowers and sensual sweetness. Rich florals bloom over creamy vanilla and patchouli. Bold, glamorous, and captivating.",
+        "intensity": {
+            "sillage": 71,
+            "projection": 86,
+            "longevity": 85
+        }
     },
     {
         "id": "w9",
@@ -1500,7 +1670,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "Dark, addictive, and electrifying. Bitter coffee blends with sweet vanilla and glowing florals. Seductive and irresistibly modern."
+        "description": "Dark, addictive, and electrifying. Bitter coffee blends with sweet vanilla and glowing florals. Seductive and irresistibly modern.",
+        "intensity": {
+            "sillage": 71,
+            "projection": 75,
+            "longevity": 88
+        }
     },
     {
         "id": "w10",
@@ -1543,7 +1718,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A daring contrast of light and dark. Sweet gourmand notes meet luminous white florals. Powerful femininity with irresistible charm."
+        "description": "A daring contrast of light and dark. Sweet gourmand notes meet luminous white florals. Powerful femininity with irresistible charm.",
+        "intensity": {
+            "sillage": 70,
+            "projection": 75,
+            "longevity": 84
+        }
     },
     {
         "id": "w11",
@@ -1586,7 +1766,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "Playful sweetness wrapped in sophistication. Creamy caramel melts into warm amber and soft woods. Deliciously addictive and elegant."
+        "description": "Playful sweetness wrapped in sophistication. Creamy caramel melts into warm amber and soft woods. Deliciously addictive and elegant.",
+        "intensity": {
+            "sillage": 78,
+            "projection": 82,
+            "longevity": 87
+        }
     },
     {
         "id": "w12",
@@ -1629,7 +1814,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A joyful expression of beauty and freedom. Sweet praline and vanilla blend with elegant florals. Radiant, warm, and uplifting."
+        "description": "A joyful expression of beauty and freedom. Sweet praline and vanilla blend with elegant florals. Radiant, warm, and uplifting.",
+        "intensity": {
+            "sillage": 70,
+            "projection": 85,
+            "longevity": 87
+        }
     },
     {
         "id": "w13",
@@ -1672,7 +1862,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "Bold sweetness with irresistible sensuality. Honeyed florals melt into warm caramel and patchouli. Daring, glamorous, unforgettable."
+        "description": "Bold sweetness with irresistible sensuality. Honeyed florals melt into warm caramel and patchouli. Daring, glamorous, unforgettable.",
+        "intensity": {
+            "sillage": 71,
+            "projection": 73,
+            "longevity": 79
+        }
     },
     {
         "id": "w14",
@@ -1715,7 +1910,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A Mediterranean summer in a bottle. Bright citrus and crisp fruits blend with airy florals. Fresh, sparkling, and vibrant."
+        "description": "A Mediterranean summer in a bottle. Bright citrus and crisp fruits blend with airy florals. Fresh, sparkling, and vibrant.",
+        "intensity": {
+            "sillage": 80,
+            "projection": 79,
+            "longevity": 79
+        }
     },
     {
         "id": "w15",
@@ -1758,7 +1958,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A sparkling fragrance of delicate femininity. Fresh fruits meet luminous florals and soft woods. Elegant, radiant, and graceful."
+        "description": "A sparkling fragrance of delicate femininity. Fresh fruits meet luminous florals and soft woods. Elegant, radiant, and graceful.",
+        "intensity": {
+            "sillage": 76,
+            "projection": 80,
+            "longevity": 80
+        }
     },
     {
         "id": "w16",
@@ -1801,7 +2006,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "Playful, bright, and charming. Sweet fruits bloom into airy florals over soft musk. Youthful and delightfully fresh."
+        "description": "Playful, bright, and charming. Sweet fruits bloom into airy florals over soft musk. Youthful and delightfully fresh.",
+        "intensity": {
+            "sillage": 81,
+            "projection": 77,
+            "longevity": 86
+        }
     },
     {
         "id": "w17",
@@ -1844,7 +2054,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A modern fruity gourmand with irresistible charm. Juicy berries swirl with creamy vanilla and soft woods. Vibrant and addictive."
+        "description": "A modern fruity gourmand with irresistible charm. Juicy berries swirl with creamy vanilla and soft woods. Vibrant and addictive.",
+        "intensity": {
+            "sillage": 83,
+            "projection": 83,
+            "longevity": 92
+        }
     },
     {
         "id": "w18",
@@ -1887,7 +2102,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A fragrance of elegance and strength. Sweet fruits merge with graceful florals and warm woods. Sophisticated and confident."
+        "description": "A fragrance of elegance and strength. Sweet fruits merge with graceful florals and warm woods. Sophisticated and confident.",
+        "intensity": {
+            "sillage": 79,
+            "projection": 80,
+            "longevity": 82
+        }
     },
     {
         "id": "w19",
@@ -1930,7 +2150,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A daring fragrance of forbidden beauty. White florals bloom over deep earthy woods. Bold, sensual, and mysterious."
+        "description": "A daring fragrance of forbidden beauty. White florals bloom over deep earthy woods. Bold, sensual, and mysterious.",
+        "intensity": {
+            "sillage": 85,
+            "projection": 85,
+            "longevity": 85
+        }
     },
     {
         "id": "w20",
@@ -1973,7 +2198,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "An otherworldly fragrance glowing with warmth. Luminous jasmine radiates over rich amber and woods. Powerful, mysterious, unforgettable."
+        "description": "An otherworldly fragrance glowing with warmth. Luminous jasmine radiates over rich amber and woods. Powerful, mysterious, unforgettable.",
+        "intensity": {
+            "sillage": 82,
+            "projection": 80,
+            "longevity": 82
+        }
     },
     {
         "id": "w21",
@@ -2016,7 +2246,12 @@
             "female.png"
         ],
         "image": "female.png",
-        "description": "A soft, intimate fragrance of sensual elegance. Velvety musk blends with delicate florals and warm woods. Feminine, graceful, and timeless."
+        "description": "A soft, intimate fragrance of sensual elegance. Velvety musk blends with delicate florals and warm woods. Feminine, graceful, and timeless.",
+        "intensity": {
+            "sillage": 85,
+            "projection": 79,
+            "longevity": 89
+        }
     },
     {
         "id": "u2",
@@ -2059,7 +2294,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A luminous blend of amber and saffron that glows like molten crystal. Sweet warmth meets airy woods to create an unforgettable trail. Luxurious, radiant, and addictive."
+        "description": "A luminous blend of amber and saffron that glows like molten crystal. Sweet warmth meets airy woods to create an unforgettable trail. Luxurious, radiant, and addictive.",
+        "intensity": {
+            "sillage": 78,
+            "projection": 83,
+            "longevity": 95
+        }
     },
     {
         "id": "u3",
@@ -2102,7 +2342,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "Silky roses draped over deep, luxurious oud. Sweet vanilla and amber add a velvety softness. Rich, sensual, and opulent."
+        "description": "Silky roses draped over deep, luxurious oud. Sweet vanilla and amber add a velvety softness. Rich, sensual, and opulent.",
+        "intensity": {
+            "sillage": 84,
+            "projection": 77,
+            "longevity": 83
+        }
     },
     {
         "id": "u4",
@@ -2145,7 +2390,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A soothing cloud of clean musk and luminous citrus. Soft woods and delicate florals create an aura of calm elegance. Fresh, comforting, and refined."
+        "description": "A soothing cloud of clean musk and luminous citrus. Soft woods and delicate florals create an aura of calm elegance. Fresh, comforting, and refined.",
+        "intensity": {
+            "sillage": 83,
+            "projection": 88,
+            "longevity": 92
+        }
     },
     {
         "id": "u5",
@@ -2188,7 +2438,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A decadent oriental fragrance of spices and sweetness. Honeyed warmth melts into creamy vanilla and amber. Rich, comforting, and luxurious."
+        "description": "A decadent oriental fragrance of spices and sweetness. Honeyed warmth melts into creamy vanilla and amber. Rich, comforting, and luxurious.",
+        "intensity": {
+            "sillage": 81,
+            "projection": 90,
+            "longevity": 89
+        }
     },
     {
         "id": "u6",
@@ -2231,7 +2486,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "Creamy vanilla wrapped in glowing spices and woods. Warm and smooth with irresistible sweetness. Elegant, comforting, and modern."
+        "description": "Creamy vanilla wrapped in glowing spices and woods. Warm and smooth with irresistible sweetness. Elegant, comforting, and modern.",
+        "intensity": {
+            "sillage": 86,
+            "projection": 80,
+            "longevity": 83
+        }
     },
     {
         "id": "u7",
@@ -2274,7 +2534,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A luxurious blend of honeyed sweetness and aromatic tobacco. Bright citrus opens the journey before warm spices take over. Rich, elegant, and deeply addictive."
+        "description": "A luxurious blend of honeyed sweetness and aromatic tobacco. Bright citrus opens the journey before warm spices take over. Rich, elegant, and deeply addictive.",
+        "intensity": {
+            "sillage": 80,
+            "projection": 87,
+            "longevity": 85
+        }
     },
     {
         "id": "u8",
@@ -2317,7 +2582,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "Inspired by aged cognac barrels and warm sweetness. Rich spices swirl with creamy vanilla and praline. Boozy, luxurious, and irresistibly warm."
+        "description": "Inspired by aged cognac barrels and warm sweetness. Rich spices swirl with creamy vanilla and praline. Boozy, luxurious, and irresistibly warm.",
+        "intensity": {
+            "sillage": 85,
+            "projection": 79,
+            "longevity": 84
+        }
     },
     {
         "id": "u9",
@@ -2360,7 +2630,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A warm embrace of tobacco leaves and creamy vanilla. Spices and dried fruits add depth and richness. Bold, opulent, and iconic."
+        "description": "A warm embrace of tobacco leaves and creamy vanilla. Spices and dried fruits add depth and richness. Bold, opulent, and iconic.",
+        "intensity": {
+            "sillage": 88,
+            "projection": 79,
+            "longevity": 80
+        }
     },
     {
         "id": "u10",
@@ -2403,7 +2678,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A vibrant clash of exotic fruit and deep oud. Bright passionfruit sparkles before dark woods emerge. Unique, daring, and luxurious."
+        "description": "A vibrant clash of exotic fruit and deep oud. Bright passionfruit sparkles before dark woods emerge. Unique, daring, and luxurious.",
+        "intensity": {
+            "sillage": 75,
+            "projection": 83,
+            "longevity": 84
+        }
     },
     {
         "id": "u11",
@@ -2446,7 +2726,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "Dark florals wrapped in decadent sweetness. Rich truffle and orchid blend with creamy vanilla and chocolate. Sensual, mysterious, unforgettable."
+        "description": "Dark florals wrapped in decadent sweetness. Rich truffle and orchid blend with creamy vanilla and chocolate. Sensual, mysterious, unforgettable.",
+        "intensity": {
+            "sillage": 88,
+            "projection": 76,
+            "longevity": 90
+        }
     },
     {
         "id": "u12",
@@ -2489,7 +2774,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A powerful oriental fragrance glowing like moonlight in the desert. Rich rose and oud create a deep luxurious aura. Dramatic and majestic."
+        "description": "A powerful oriental fragrance glowing like moonlight in the desert. Rich rose and oud create a deep luxurious aura. Dramatic and majestic.",
+        "intensity": {
+            "sillage": 79,
+            "projection": 76,
+            "longevity": 87
+        }
     },
     {
         "id": "u13",
@@ -2532,7 +2822,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "An elegant evening fragrance glowing with amber warmth. Sweet resins and vanilla wrap the skin in luxury. Sophisticated and timeless."
+        "description": "An elegant evening fragrance glowing with amber warmth. Sweet resins and vanilla wrap the skin in luxury. Sophisticated and timeless.",
+        "intensity": {
+            "sillage": 75,
+            "projection": 79,
+            "longevity": 94
+        }
     },
     {
         "id": "u14",
@@ -2575,7 +2870,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A bright burst of spice wrapped in creamy vanilla. Warm resins and woods create depth and richness. Bold, unique, and comforting."
+        "description": "A bright burst of spice wrapped in creamy vanilla. Warm resins and woods create depth and richness. Bold, unique, and comforting.",
+        "intensity": {
+            "sillage": 85,
+            "projection": 78,
+            "longevity": 95
+        }
     },
     {
         "id": "u15",
@@ -2618,7 +2918,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "Fresh pineapple sparkles over rich woods and moss. Elegant and sophisticated with incredible presence. A masterpiece of modern niche perfumery."
+        "description": "Fresh pineapple sparkles over rich woods and moss. Elegant and sophisticated with incredible presence. A masterpiece of modern niche perfumery.",
+        "intensity": {
+            "sillage": 90,
+            "projection": 89,
+            "longevity": 88
+        }
     },
     {
         "id": "u16",
@@ -2661,7 +2966,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A wild journey across African landscapes. Warm spices and leather create a bold, adventurous scent. Exotic, rugged, unforgettable."
+        "description": "A wild journey across African landscapes. Warm spices and leather create a bold, adventurous scent. Exotic, rugged, unforgettable.",
+        "intensity": {
+            "sillage": 81,
+            "projection": 75,
+            "longevity": 95
+        }
     },
     {
         "id": "u17",
@@ -2704,7 +3014,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "Elegant florals and smooth woods create a luminous fragrance. Clean, refined, and effortlessly luxurious. A modern classic."
+        "description": "Elegant florals and smooth woods create a luminous fragrance. Clean, refined, and effortlessly luxurious. A modern classic.",
+        "intensity": {
+            "sillage": 90,
+            "projection": 89,
+            "longevity": 93
+        }
     },
     {
         "id": "u18",
@@ -2747,7 +3062,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A radiant fragrance bursting with citrus energy. Aromatic tea and ginger create a refreshing sophistication. Bright, uplifting, and refined."
+        "description": "A radiant fragrance bursting with citrus energy. Aromatic tea and ginger create a refreshing sophistication. Bright, uplifting, and refined.",
+        "intensity": {
+            "sillage": 78,
+            "projection": 90,
+            "longevity": 85
+        }
     },
     {
         "id": "u19",
@@ -2790,7 +3110,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "Electric citrus meets powerful amber woods. Crisp grapefruit shines over a smooth musky base. Fresh, vibrant, and modern."
+        "description": "Electric citrus meets powerful amber woods. Crisp grapefruit shines over a smooth musky base. Fresh, vibrant, and modern.",
+        "intensity": {
+            "sillage": 89,
+            "projection": 83,
+            "longevity": 80
+        }
     },
     {
         "id": "u20",
@@ -2833,7 +3158,12 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A seductive blend of rum, tobacco, and vanilla. Warm spices ignite the senses while smooth woods deepen the experience. Addictive and intensely sensual."
+        "description": "A seductive blend of rum, tobacco, and vanilla. Warm spices ignite the senses while smooth woods deepen the experience. Addictive and intensely sensual.",
+        "intensity": {
+            "sillage": 83,
+            "projection": 80,
+            "longevity": 91
+        }
     },
     {
         "id": "u21",
@@ -2876,6 +3206,11 @@
             "unisex.png"
         ],
         "image": "unisex.png",
-        "description": "A royal fragrance of refined elegance. Floral sweetness meets deep oud and warm woods. Luxurious, majestic, and unforgettable."
+        "description": "A royal fragrance of refined elegance. Floral sweetness meets deep oud and warm woods. Luxurious, majestic, and unforgettable.",
+        "intensity": {
+            "sillage": 83,
+            "projection": 75,
+            "longevity": 87
+        }
     }
 ]
