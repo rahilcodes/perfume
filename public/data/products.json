@@ -169,5 +169,865 @@
         ],
         "image": "private_blend.png",
         "description": "Our signature masterpiece, born from pure inspiration. A timeless exploration of white musk and crystalline amber. Opening with a flash of rare white truffle and Sicilian bergamot, descending into a heart of black orchid and dark spices. Exclusively ours, unequivocally yours."
+    },
+    {
+        "id": "m2",
+        "name": "Bleu de Elixir",
+        "category": "Men",
+        "inspiredBy": "Bleu de Chanel Parfum",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Lemon",
+                "Mint",
+                "Bergamot"
+            ],
+            "heart": [
+                "Ginger",
+                "Jasmine",
+                "Nutmeg"
+            ],
+            "base": [
+                "Sandalwood",
+                "Cedar",
+                "Incense"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "A deep oceanic expression of modern masculinity. Sparkling citrus and mint ignite the opening before warm spices and elegant woods unfold. The smoky sandalwood base creates a powerful yet sophisticated trail."
+    },
+    {
+        "id": "m3",
+        "name": "Sauvage Elixir Noir",
+        "category": "Men",
+        "inspiredBy": "Dior Sauvage Elixir",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Cinnamon",
+                "Nutmeg",
+                "Grapefruit"
+            ],
+            "heart": [
+                "Lavender",
+                "Cardamom",
+                "Patchouli"
+            ],
+            "base": [
+                "Amber",
+                "Licorice",
+                "Sandalwood"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "Bold, intense, and unapologetically powerful. Aromatic lavender collides with dark spices and smoky woods to create a commanding presence. The rich amber base leaves a magnetic, long-lasting signature."
+    },
+    {
+        "id": "m4",
+        "name": "Aqua di Elixir",
+        "category": "Men",
+        "inspiredBy": "Acqua di Gio Profumo",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Bergamot",
+                "Marine",
+                "Green"
+            ],
+            "heart": [
+                "Rosemary",
+                "Sage",
+                "Geranium"
+            ],
+            "base": [
+                "Incense",
+                "Patchouli",
+                "Amber"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "Fresh ocean waves meet volcanic earth. Aromatic herbs and aquatic accords glide over a deep incense base, creating a refined Mediterranean aura. Clean, mysterious, and endlessly elegant."
+    },
+    {
+        "id": "m5",
+        "name": "Eros Elixir",
+        "category": "Men",
+        "inspiredBy": "Versace Eros",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Mint",
+                "Apple",
+                "Lemon"
+            ],
+            "heart": [
+                "Tonka",
+                "Geranium",
+                "Vanilla"
+            ],
+            "base": [
+                "Cedar",
+                "Vetiver",
+                "Oakmoss"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "Seductive and energetic, this fragrance radiates confidence. Bright mint and apple spark the opening before melting into creamy tonka and vanilla. A sensual woody base leaves a powerful impression."
+    },
+    {
+        "id": "m6",
+        "name": "Terre d'Elixir",
+        "category": "Men",
+        "inspiredBy": "Terre d’Hermès",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Orange",
+                "Grapefruit",
+                "Citrus"
+            ],
+            "heart": [
+                "Pepper",
+                "Flint",
+                "Geranium"
+            ],
+            "base": [
+                "Vetiver",
+                "Cedar",
+                "Benzoin"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "Earthy elegance captured in a bottle. Zesty citrus meets mineral warmth and smoky woods for a refined masculine scent. Sophisticated, grounded, and timeless."
+    },
+    {
+        "id": "m7",
+        "name": "Y Elixir",
+        "category": "Men",
+        "inspiredBy": "YSL Y Eau de Parfum",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Apple",
+                "Ginger",
+                "Bergamot"
+            ],
+            "heart": [
+                "Sage",
+                "Juniper",
+                "Geranium"
+            ],
+            "base": [
+                "Tonka",
+                "Amberwood",
+                "Cedar"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "Modern freshness with a bold masculine edge. Crisp apple and ginger lead into aromatic sage before settling into warm amber woods. Clean, confident, and effortlessly stylish."
+    },
+    {
+        "id": "m8",
+        "name": "Homme Elixir Intense",
+        "category": "Men",
+        "inspiredBy": "Dior Homme Intense",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Lavender",
+                "Pear",
+                "Bergamot"
+            ],
+            "heart": [
+                "Iris",
+                "Ambrette",
+                "Cocoa"
+            ],
+            "base": [
+                "Vetiver",
+                "Cedar",
+                "Leather"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "An elegant interpretation of masculine refinement. Powdery iris and soft cocoa create a luxurious heart wrapped in smooth woods. Deeply sensual yet sophisticated."
+    },
+    {
+        "id": "m9",
+        "name": "Sport Elixir",
+        "category": "Men",
+        "inspiredBy": "Allure Homme Sport",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Orange",
+                "Aldehydes",
+                "Sea"
+            ],
+            "heart": [
+                "Pepper",
+                "Neroli",
+                "Cedar"
+            ],
+            "base": [
+                "Tonka",
+                "Musk",
+                "Amber"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "Vibrant energy meets refined style. Fresh citrus and oceanic air collide with warm woods and tonka. A dynamic fragrance built for movement and confidence."
+    },
+    {
+        "id": "m10",
+        "name": "L’Homme Elixir",
+        "category": "Men",
+        "inspiredBy": "Prada L’Homme",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Neroli",
+                "Cardamom",
+                "Pepper"
+            ],
+            "heart": [
+                "Iris",
+                "Violet",
+                "Geranium"
+            ],
+            "base": [
+                "Amber",
+                "Cedar",
+                "Patchouli"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "Clean, sophisticated, and modern. Powdery iris blends seamlessly with warm amber and subtle spice. A polished scent that embodies understated luxury."
+    },
+    {
+        "id": "m11",
+        "name": "Explorer Elixir",
+        "category": "Men",
+        "inspiredBy": "Montblanc Explorer",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Bergamot",
+                "Pink Pepper",
+                "Clary sage"
+            ],
+            "heart": [
+                "Vetiver",
+                "Leather",
+                "Patchouli"
+            ],
+            "base": [
+                "Ambroxan",
+                "Cocoa",
+                "Woods"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "Crafted for the modern adventurer. Sparkling bergamot opens the journey before smoky vetiver and leather reveal a rugged elegance. A powerful trail built for exploration."
+    },
+    {
+        "id": "m12",
+        "name": "Aventus Elixir Royale",
+        "category": "Men",
+        "inspiredBy": "Creed Aventus",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Pineapple",
+                "Bergamot",
+                "Apple"
+            ],
+            "heart": [
+                "Birch",
+                "Patchouli",
+                "Jasmine"
+            ],
+            "base": [
+                "Oakmoss",
+                "Musk",
+                "Ambergris"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "A symbol of power and success. Juicy pineapple meets smoky birch and refined musk, creating a bold yet sophisticated signature. Confident, iconic, unforgettable."
+    },
+    {
+        "id": "m13",
+        "name": "Layton Elixir",
+        "category": "Men",
+        "inspiredBy": "Parfums de Marly Layton",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Apple",
+                "Bergamot",
+                "Lavender"
+            ],
+            "heart": [
+                "Jasmine",
+                "Violet",
+                "Geranium"
+            ],
+            "base": [
+                "Vanilla",
+                "Sandalwood",
+                "Pepper"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "Royal elegance with irresistible charm. Crisp apple and lavender bloom into warm vanilla and woods. Smooth, sensual, and luxurious."
+    },
+    {
+        "id": "m14",
+        "name": "Carlisle Elixir",
+        "category": "Men",
+        "inspiredBy": "Parfums de Marly Carlisle",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Green Apple",
+                "Nutmeg",
+                "Saffron"
+            ],
+            "heart": [
+                "Tonka",
+                "Rose",
+                "Osmanthus"
+            ],
+            "base": [
+                "Vanilla",
+                "Patchouli",
+                "Resin"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "Dark sweetness wrapped in noble sophistication. Warm spices and fruits melt into creamy vanilla and resinous woods. Deep, rich, and commanding."
+    },
+    {
+        "id": "m15",
+        "name": "Oud Majesty Elixir",
+        "category": "Men",
+        "inspiredBy": "Initio Oud for Greatness",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Saffron",
+                "Nutmeg",
+                "Lavender"
+            ],
+            "heart": [
+                "Oud",
+                "Patchouli",
+                "Incense"
+            ],
+            "base": [
+                "Musk",
+                "Amber",
+                "Leather"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "A majestic tribute to the power of oud. Spices ignite the opening before deep smoky woods take control. Bold, luxurious, and unforgettable."
+    },
+    {
+        "id": "m16",
+        "name": "Spice Elixir Extreme",
+        "category": "Men",
+        "inspiredBy": "Spicebomb Extreme",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Black Pepper",
+                "Grapefruit",
+                "Cinnamon"
+            ],
+            "heart": [
+                "Lavender",
+                "Cumin",
+                "Saffron"
+            ],
+            "base": [
+                "Tobacco",
+                "Vanilla",
+                "Amber"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "An explosive blend of warmth and seduction. Spices ignite the senses while tobacco and vanilla deliver deep sensuality. Powerful and intensely masculine."
+    },
+    {
+        "id": "m17",
+        "name": "The One Elixir",
+        "category": "Men",
+        "inspiredBy": "Dolce & Gabbana The One EDP",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Grapefruit",
+                "Basil",
+                "Coriander"
+            ],
+            "heart": [
+                "Ginger",
+                "Orange Blossom",
+                "Cardamom"
+            ],
+            "base": [
+                "Tobacco",
+                "Amber",
+                "Cedar"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "A timeless gentleman’s scent. Warm spices and citrus lead into rich tobacco and amber. Elegant, charismatic, and irresistibly masculine."
+    },
+    {
+        "id": "m18",
+        "name": "Wanted Elixir",
+        "category": "Men",
+        "inspiredBy": "Azzaro The Most Wanted",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Cardamom",
+                "Lemon",
+                "Ginger"
+            ],
+            "heart": [
+                "Caramel",
+                "Amber",
+                "Lavender"
+            ],
+            "base": [
+                "Vanilla",
+                "Woods",
+                "Musk"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "A bold fragrance built for confidence. Sweet caramel and warm spices create an addictive warmth. Seductive and daring."
+    },
+    {
+        "id": "m19",
+        "name": "Code Elixir",
+        "category": "Men",
+        "inspiredBy": "Armani Code Profumo",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Apple",
+                "Cardamom",
+                "Mandarin"
+            ],
+            "heart": [
+                "Lavender",
+                "Nutmeg",
+                "Orange Blossom"
+            ],
+            "base": [
+                "Tonka",
+                "Amber",
+                "Leather"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "Dark elegance wrapped in warmth. Aromatic lavender meets creamy tonka and deep amber. Perfect for evening sophistication."
+    },
+    {
+        "id": "m20",
+        "name": "Interlude Elixir",
+        "category": "Men",
+        "inspiredBy": "Amouage Interlude Man",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Bergamot",
+                "Oregano",
+                "Pepper"
+            ],
+            "heart": [
+                "Amber",
+                "Incense",
+                "Opoponax"
+            ],
+            "base": [
+                "Leather",
+                "Oud",
+                "Sandalwood"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "A dramatic symphony of smoke and spice. Resinous incense swirls with powerful woods to create a bold olfactory statement. Deep, mysterious, unforgettable."
+    },
+    {
+        "id": "m21",
+        "name": "Enigma Elixir",
+        "category": "Men",
+        "inspiredBy": "Roja Enigma Pour Homme",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Bergamot",
+                "Cognac",
+                "Lemon"
+            ],
+            "heart": [
+                "Tobacco",
+                "Jasmine",
+                "Ginger"
+            ],
+            "base": [
+                "Vanilla",
+                "Benzoin",
+                "Amber"
+            ]
+        },
+        "images": [
+            "male.png"
+        ],
+        "image": "male.png",
+        "description": "A luxurious scent of intrigue and seduction. Boozy cognac notes blend with warm tobacco and vanilla. Opulent, mysterious, and intensely refined."
     }
 ]
