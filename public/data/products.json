@@ -1029,5 +1029,1725 @@
         ],
         "image": "male.png",
         "description": "A luxurious scent of intrigue and seduction. Boozy cognac notes blend with warm tobacco and vanilla. Opulent, mysterious, and intensely refined."
+    },
+    {
+        "id": "w2",
+        "name": "Coco Elixir",
+        "category": "Women",
+        "inspiredBy": "Chanel Coco Mademoiselle",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Orange",
+                "Bergamot",
+                "Grapefruit"
+            ],
+            "heart": [
+                "Rose",
+                "Jasmine",
+                "Litchi"
+            ],
+            "base": [
+                "Patchouli",
+                "Vanilla",
+                "Musk"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A luminous fragrance that embodies Parisian elegance. Sparkling citrus and delicate florals bloom into a warm, sensual base of patchouli and vanilla. Chic, timeless, and effortlessly feminine."
+    },
+    {
+        "id": "w3",
+        "name": "Jadore Elixir",
+        "category": "Women",
+        "inspiredBy": "Dior J’adore",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Bergamot",
+                "Pear",
+                "Melon"
+            ],
+            "heart": [
+                "Jasmine",
+                "Rose",
+                "Lily"
+            ],
+            "base": [
+                "Musk",
+                "Cedar",
+                "Vanilla"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "Radiant florals unfold in a graceful symphony of femininity. Lush jasmine and rose glide over soft woods and creamy musk. Elegant, luminous, and irresistibly refined."
+    },
+    {
+        "id": "w4",
+        "name": "Bloom Elixir",
+        "category": "Women",
+        "inspiredBy": "Gucci Bloom",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Jasmine",
+                "Orange Blossom",
+                "Green"
+            ],
+            "heart": [
+                "Tuberose",
+                "Honeysuckle",
+                "Rose"
+            ],
+            "base": [
+                "Sandalwood",
+                "Musk",
+                "Orris"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A garden captured at its most beautiful moment. White florals bloom with intoxicating richness and softness. Romantic, delicate, and deeply feminine."
+    },
+    {
+        "id": "w5",
+        "name": "Libre Elixir",
+        "category": "Women",
+        "inspiredBy": "Yves Saint Laurent Libre",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Lavender",
+                "Mandarin",
+                "Blackcurrant"
+            ],
+            "heart": [
+                "Jasmine",
+                "Orange Blossom",
+                "Orchid"
+            ],
+            "base": [
+                "Vanilla",
+                "Ambergris",
+                "Musk"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "Bold freedom wrapped in sensual elegance. Aromatic lavender meets creamy vanilla and luminous florals. Confident, modern, and empowering."
+    },
+    {
+        "id": "w6",
+        "name": "Idole Elixir",
+        "category": "Women",
+        "inspiredBy": "Lancôme Idôle",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Pear",
+                "Bergamot",
+                "Pink Pepper"
+            ],
+            "heart": [
+                "Rose",
+                "Jasmine",
+                "Musk"
+            ],
+            "base": [
+                "Vanilla",
+                "Cedar",
+                "Patchouli"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A modern fragrance of strength and grace. Sparkling fruits blend with radiant roses before settling into soft woods and vanilla. Clean, luminous, and inspiring."
+    },
+    {
+        "id": "w7",
+        "name": "Chance Elixir Tendre",
+        "category": "Women",
+        "inspiredBy": "Chanel Chance Eau Tendre",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Grapefruit",
+                "Quince",
+                "Lemon"
+            ],
+            "heart": [
+                "Jasmine",
+                "Rose",
+                "Hyacinth"
+            ],
+            "base": [
+                "Musk",
+                "Amber",
+                "Cedar"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A soft breeze of youthful elegance. Delicate florals float over sparkling citrus and gentle musk. Fresh, graceful, and beautifully uplifting."
+    },
+    {
+        "id": "w8",
+        "name": "Flowerbomb Elixir",
+        "category": "Women",
+        "inspiredBy": "Viktor & Rolf Flowerbomb",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Bergamot",
+                "Tea",
+                "Osmanthus"
+            ],
+            "heart": [
+                "Jasmine",
+                "Rose",
+                "Orchid"
+            ],
+            "base": [
+                "Patchouli",
+                "Vanilla",
+                "Musk"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "An explosion of luxurious flowers and sensual sweetness. Rich florals bloom over creamy vanilla and patchouli. Bold, glamorous, and captivating."
+    },
+    {
+        "id": "w9",
+        "name": "Opium Elixir Noir",
+        "category": "Women",
+        "inspiredBy": "YSL Black Opium",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Coffee",
+                "Pear",
+                "Pink Pepper"
+            ],
+            "heart": [
+                "Jasmine",
+                "Orange Blossom",
+                "Almond"
+            ],
+            "base": [
+                "Vanilla",
+                "Patchouli",
+                "Cedar"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "Dark, addictive, and electrifying. Bitter coffee blends with sweet vanilla and glowing florals. Seductive and irresistibly modern."
+    },
+    {
+        "id": "w10",
+        "name": "Good Girl Elixir",
+        "category": "Women",
+        "inspiredBy": "Carolina Herrera Good Girl",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Almond",
+                "Coffee",
+                "Bergamot"
+            ],
+            "heart": [
+                "Jasmine",
+                "Tuberose",
+                "Rose"
+            ],
+            "base": [
+                "Tonka",
+                "Cocoa",
+                "Vanilla"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A daring contrast of light and dark. Sweet gourmand notes meet luminous white florals. Powerful femininity with irresistible charm."
+    },
+    {
+        "id": "w11",
+        "name": "Candy Elixir",
+        "category": "Women",
+        "inspiredBy": "Prada Candy",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Caramel",
+                "Citrus",
+                "Musk"
+            ],
+            "heart": [
+                "Powder",
+                "Benzoin",
+                "Vanilla"
+            ],
+            "base": [
+                "Amber",
+                "Sandalwood",
+                "Musk"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "Playful sweetness wrapped in sophistication. Creamy caramel melts into warm amber and soft woods. Deliciously addictive and elegant."
+    },
+    {
+        "id": "w12",
+        "name": "Belle Elixir",
+        "category": "Women",
+        "inspiredBy": "Lancôme La Vie Est Belle",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Pear",
+                "Blackcurrant",
+                "Orange"
+            ],
+            "heart": [
+                "Iris",
+                "Jasmine",
+                "Orange Blossom"
+            ],
+            "base": [
+                "Vanilla",
+                "Praline",
+                "Patchouli"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A joyful expression of beauty and freedom. Sweet praline and vanilla blend with elegant florals. Radiant, warm, and uplifting."
+    },
+    {
+        "id": "w13",
+        "name": "Scandal Elixir",
+        "category": "Women",
+        "inspiredBy": "Jean Paul Gaultier Scandal",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Blood Orange",
+                "Honey",
+                "Citrus"
+            ],
+            "heart": [
+                "Jasmine",
+                "Gardenia",
+                "Orange Blossom"
+            ],
+            "base": [
+                "Caramel",
+                "Patchouli",
+                "Beeswax"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "Bold sweetness with irresistible sensuality. Honeyed florals melt into warm caramel and patchouli. Daring, glamorous, unforgettable."
+    },
+    {
+        "id": "w14",
+        "name": "Light Blue Elixir",
+        "category": "Women",
+        "inspiredBy": "Dolce & Gabbana Light Blue",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Lemon",
+                "Apple",
+                "Cedar"
+            ],
+            "heart": [
+                "Jasmine",
+                "Bamboo",
+                "Rose"
+            ],
+            "base": [
+                "Amber",
+                "Musk",
+                "Woods"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A Mediterranean summer in a bottle. Bright citrus and crisp fruits blend with airy florals. Fresh, sparkling, and vibrant."
+    },
+    {
+        "id": "w15",
+        "name": "Crystal Elixir",
+        "category": "Women",
+        "inspiredBy": "Versace Bright Crystal",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Pomegranate",
+                "Yuzu",
+                "Ice"
+            ],
+            "heart": [
+                "Peony",
+                "Magnolia",
+                "Lotus"
+            ],
+            "base": [
+                "Musk",
+                "Amber",
+                "Mahogany"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A sparkling fragrance of delicate femininity. Fresh fruits meet luminous florals and soft woods. Elegant, radiant, and graceful."
+    },
+    {
+        "id": "w16",
+        "name": "Daisy Elixir",
+        "category": "Women",
+        "inspiredBy": "Marc Jacobs Daisy",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Strawberry",
+                "Violet",
+                "Grapefruit"
+            ],
+            "heart": [
+                "Jasmine",
+                "Gardenia",
+                "Rose"
+            ],
+            "base": [
+                "Musk",
+                "Vanilla",
+                "Woods"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "Playful, bright, and charming. Sweet fruits bloom into airy florals over soft musk. Youthful and delightfully fresh."
+    },
+    {
+        "id": "w17",
+        "name": "Her Elixir",
+        "category": "Women",
+        "inspiredBy": "Burberry Her",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Strawberry",
+                "Raspberry",
+                "Blackberry"
+            ],
+            "heart": [
+                "Jasmine",
+                "Violet",
+                "Musk"
+            ],
+            "base": [
+                "Amber",
+                "Vanilla",
+                "Woods"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A modern fruity gourmand with irresistible charm. Juicy berries swirl with creamy vanilla and soft woods. Vibrant and addictive."
+    },
+    {
+        "id": "w18",
+        "name": "Si Elixir",
+        "category": "Women",
+        "inspiredBy": "Armani Si",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Blackcurrant",
+                "Bergamot",
+                "Mandarin"
+            ],
+            "heart": [
+                "Rose",
+                "Freesia",
+                "Neroli"
+            ],
+            "base": [
+                "Patchouli",
+                "Vanilla",
+                "Amber"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A fragrance of elegance and strength. Sweet fruits merge with graceful florals and warm woods. Sophisticated and confident."
+    },
+    {
+        "id": "w19",
+        "name": "Interdit Elixir",
+        "category": "Women",
+        "inspiredBy": "Givenchy L’Interdit",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Pear",
+                "Bergamot",
+                "Cherry"
+            ],
+            "heart": [
+                "Tuberose",
+                "Jasmine",
+                "Orange Blossom"
+            ],
+            "base": [
+                "Vetiver",
+                "Patchouli",
+                "Vanilla"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A daring fragrance of forbidden beauty. White florals bloom over deep earthy woods. Bold, sensual, and mysterious."
+    },
+    {
+        "id": "w20",
+        "name": "Alien Elixir",
+        "category": "Women",
+        "inspiredBy": "Mugler Alien",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Jasmine",
+                "Citrus",
+                "Solar"
+            ],
+            "heart": [
+                "Cashmeran",
+                "Amber",
+                "Woods"
+            ],
+            "base": [
+                "Vanilla",
+                "Musk",
+                "Resin"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "An otherworldly fragrance glowing with warmth. Luminous jasmine radiates over rich amber and woods. Powerful, mysterious, unforgettable."
+    },
+    {
+        "id": "w21",
+        "name": "Narciso Elixir",
+        "category": "Women",
+        "inspiredBy": "Narciso Rodriguez For Her",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Rose",
+                "Peach",
+                "Bergamot"
+            ],
+            "heart": [
+                "Musk",
+                "Amber",
+                "Floral"
+            ],
+            "base": [
+                "Patchouli",
+                "Vetiver",
+                "Woods"
+            ]
+        },
+        "images": [
+            "female.png"
+        ],
+        "image": "female.png",
+        "description": "A soft, intimate fragrance of sensual elegance. Velvety musk blends with delicate florals and warm woods. Feminine, graceful, and timeless."
+    },
+    {
+        "id": "u2",
+        "name": "Rouge Elixir 540",
+        "category": "Unisex",
+        "inspiredBy": "Baccarat Rouge 540",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Saffron",
+                "Jasmine",
+                "Orange"
+            ],
+            "heart": [
+                "Amberwood",
+                "Ambergris",
+                "Cedar"
+            ],
+            "base": [
+                "Fir Resin",
+                "Musk",
+                "Sugar"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A luminous blend of amber and saffron that glows like molten crystal. Sweet warmth meets airy woods to create an unforgettable trail. Luxurious, radiant, and addictive."
+    },
+    {
+        "id": "u3",
+        "name": "Satin Oud Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Oud Satin Mood",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Violet",
+                "Rose",
+                "Jasmine"
+            ],
+            "heart": [
+                "Oud",
+                "Benzoin",
+                "Amber"
+            ],
+            "base": [
+                "Vanilla",
+                "Musk",
+                "Woods"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "Silky roses draped over deep, luxurious oud. Sweet vanilla and amber add a velvety softness. Rich, sensual, and opulent."
+    },
+    {
+        "id": "u4",
+        "name": "Musk Therapy Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Initio Musk Therapy",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Bergamot",
+                "Mandarin",
+                "Blackcurrant"
+            ],
+            "heart": [
+                "Magnolia",
+                "Sandalwood",
+                "Rose"
+            ],
+            "base": [
+                "Musk",
+                "Amber",
+                "Cashmeran"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A soothing cloud of clean musk and luminous citrus. Soft woods and delicate florals create an aura of calm elegance. Fresh, comforting, and refined."
+    },
+    {
+        "id": "u5",
+        "name": "Oajan Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Parfums de Marly Oajan",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Cinnamon",
+                "Honey",
+                "Osmanthus"
+            ],
+            "heart": [
+                "Benzoin",
+                "Amber",
+                "Labdanum"
+            ],
+            "base": [
+                "Vanilla",
+                "Tonka",
+                "Patchouli"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A decadent oriental fragrance of spices and sweetness. Honeyed warmth melts into creamy vanilla and amber. Rich, comforting, and luxurious."
+    },
+    {
+        "id": "u6",
+        "name": "Althair Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Parfums de Marly Althair",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Orange Blossom",
+                "Cinnamon",
+                "Bergamot"
+            ],
+            "heart": [
+                "Bourbon Vanilla",
+                "Elemi",
+                "Guaiac"
+            ],
+            "base": [
+                "Musk",
+                "Praline",
+                "Woods"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "Creamy vanilla wrapped in glowing spices and woods. Warm and smooth with irresistible sweetness. Elegant, comforting, and modern."
+    },
+    {
+        "id": "u7",
+        "name": "Naxos Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Xerjoff Naxos",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Lavender",
+                "Bergamot",
+                "Lemon"
+            ],
+            "heart": [
+                "Honey",
+                "Cinnamon",
+                "Jasmine"
+            ],
+            "base": [
+                "Tobacco",
+                "Vanilla",
+                "Tonka"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A luxurious blend of honeyed sweetness and aromatic tobacco. Bright citrus opens the journey before warm spices take over. Rich, elegant, and deeply addictive."
+    },
+    {
+        "id": "u8",
+        "name": "Angel Share Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Angel’s Share By Kilian",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Cognac",
+                "Cinnamon",
+                "Oak"
+            ],
+            "heart": [
+                "Tonka",
+                "Praline",
+                "Vanilla"
+            ],
+            "base": [
+                "Sandalwood",
+                "Amber",
+                "Musk"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "Inspired by aged cognac barrels and warm sweetness. Rich spices swirl with creamy vanilla and praline. Boozy, luxurious, and irresistibly warm."
+    },
+    {
+        "id": "u9",
+        "name": "Tobacco Vanille Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Tom Ford Tobacco Vanille",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Tobacco",
+                "Spice",
+                "Ginger"
+            ],
+            "heart": [
+                "Vanilla",
+                "Cacao",
+                "Tonka"
+            ],
+            "base": [
+                "Dried Fruit",
+                "Woods",
+                "Amber"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A warm embrace of tobacco leaves and creamy vanilla. Spices and dried fruits add depth and richness. Bold, opulent, and iconic."
+    },
+    {
+        "id": "u10",
+        "name": "Oud Maracuja Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Oud Maracujá",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Passionfruit",
+                "Saffron",
+                "Rose"
+            ],
+            "heart": [
+                "Oud",
+                "Patchouli",
+                "Amber"
+            ],
+            "base": [
+                "Leather",
+                "Musk",
+                "Woods"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A vibrant clash of exotic fruit and deep oud. Bright passionfruit sparkles before dark woods emerge. Unique, daring, and luxurious."
+    },
+    {
+        "id": "u11",
+        "name": "Orchid Noir Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Tom Ford Black Orchid",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Truffle",
+                "Blackcurrant",
+                "Bergamot"
+            ],
+            "heart": [
+                "Orchid",
+                "Spices",
+                "Lotus"
+            ],
+            "base": [
+                "Patchouli",
+                "Vanilla",
+                "Chocolate"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "Dark florals wrapped in decadent sweetness. Rich truffle and orchid blend with creamy vanilla and chocolate. Sensual, mysterious, unforgettable."
+    },
+    {
+        "id": "u12",
+        "name": "Moon Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Frederic Malle The Moon",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Raspberry",
+                "Saffron",
+                "Litchi"
+            ],
+            "heart": [
+                "Rose",
+                "Olibanum",
+                "Amber"
+            ],
+            "base": [
+                "Oud",
+                "Leather",
+                "Patchouli"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A powerful oriental fragrance glowing like moonlight in the desert. Rich rose and oud create a deep luxurious aura. Dramatic and majestic."
+    },
+    {
+        "id": "u13",
+        "name": "Grand Soir Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Maison Francis Kurkdjian Grand Soir",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Amber",
+                "Benzoin",
+                "Labdanum"
+            ],
+            "heart": [
+                "Vanilla",
+                "Tonka",
+                "Lavender"
+            ],
+            "base": [
+                "Musk",
+                "Woods",
+                "Resin"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "An elegant evening fragrance glowing with amber warmth. Sweet resins and vanilla wrap the skin in luxury. Sophisticated and timeless."
+    },
+    {
+        "id": "u14",
+        "name": "Ani Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Nishane Ani",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Ginger",
+                "Bergamot",
+                "Pink Pepper"
+            ],
+            "heart": [
+                "Blackcurrant",
+                "Cardamom",
+                "Rose"
+            ],
+            "base": [
+                "Vanilla",
+                "Benzoin",
+                "Sandalwood"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A bright burst of spice wrapped in creamy vanilla. Warm resins and woods create depth and richness. Bold, unique, and comforting."
+    },
+    {
+        "id": "u15",
+        "name": "Hacivat Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Nishane Hacivat",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Pineapple",
+                "Grapefruit",
+                "Bergamot"
+            ],
+            "heart": [
+                "Jasmine",
+                "Patchouli",
+                "Cedar"
+            ],
+            "base": [
+                "Oakmoss",
+                "Woods",
+                "Musk"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "Fresh pineapple sparkles over rich woods and moss. Elegant and sophisticated with incredible presence. A masterpiece of modern niche perfumery."
+    },
+    {
+        "id": "u16",
+        "name": "African Leather Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Memo African Leather",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Cardamom",
+                "Bergamot",
+                "Saffron"
+            ],
+            "heart": [
+                "Cumin",
+                "Geranium",
+                "Patchouli"
+            ],
+            "base": [
+                "Leather",
+                "Vetiver",
+                "Oud"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A wild journey across African landscapes. Warm spices and leather create a bold, adventurous scent. Exotic, rugged, unforgettable."
+    },
+    {
+        "id": "u17",
+        "name": "Reflection Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Amouage Reflection Man",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Rosemary",
+                "Pink Pepper",
+                "Neroli"
+            ],
+            "heart": [
+                "Jasmine",
+                "Ylang",
+                "Orris"
+            ],
+            "base": [
+                "Sandalwood",
+                "Cedar",
+                "Patchouli"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "Elegant florals and smooth woods create a luminous fragrance. Clean, refined, and effortlessly luxurious. A modern classic."
+    },
+    {
+        "id": "u18",
+        "name": "Imagination Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Louis Vuitton Imagination",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Bergamot",
+                "Lemon",
+                "Ginger"
+            ],
+            "heart": [
+                "Neroli",
+                "Tea",
+                "Cinnamon"
+            ],
+            "base": [
+                "Ambroxan",
+                "Cedar",
+                "Musk"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A radiant fragrance bursting with citrus energy. Aromatic tea and ginger create a refreshing sophistication. Bright, uplifting, and refined."
+    },
+    {
+        "id": "u19",
+        "name": "Tygar Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Bvlgari Tygar",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Grapefruit",
+                "Citrus",
+                "Bergamot"
+            ],
+            "heart": [
+                "Ginger",
+                "Ambroxan",
+                "Woods"
+            ],
+            "base": [
+                "Amber",
+                "Musk",
+                "Vetiver"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "Electric citrus meets powerful amber woods. Crisp grapefruit shines over a smooth musky base. Fresh, vibrant, and modern."
+    },
+    {
+        "id": "u20",
+        "name": "Side Effect Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Initio Side Effect",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Cinnamon",
+                "Rum",
+                "Tobacco"
+            ],
+            "heart": [
+                "Saffron",
+                "Hedione",
+                "Sandalwood"
+            ],
+            "base": [
+                "Vanilla",
+                "Amber",
+                "Musk"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A seductive blend of rum, tobacco, and vanilla. Warm spices ignite the senses while smooth woods deepen the experience. Addictive and intensely sensual."
+    },
+    {
+        "id": "u21",
+        "name": "Alexandria Elixir",
+        "category": "Unisex",
+        "inspiredBy": "Xerjoff Alexandria II",
+        "price": 399,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 399
+            },
+            {
+                "ml": 60,
+                "price": 649
+            },
+            {
+                "ml": 100,
+                "price": 999
+            }
+        ],
+        "notes": {
+            "top": [
+                "Lavender",
+                "Apple",
+                "Cinnamon"
+            ],
+            "heart": [
+                "Rose",
+                "Cedar",
+                "Lily"
+            ],
+            "base": [
+                "Oud",
+                "Amber",
+                "Sandalwood"
+            ]
+        },
+        "images": [
+            "unisex.png"
+        ],
+        "image": "unisex.png",
+        "description": "A royal fragrance of refined elegance. Floral sweetness meets deep oud and warm woods. Luxurious, majestic, and unforgettable."
     }
 ]

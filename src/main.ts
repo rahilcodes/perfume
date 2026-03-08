@@ -350,7 +350,15 @@ function renderProductDetail(product: Product) {
 
 
 function renderHero() {
-  const slides = state.products.map((p, i) => `
+  const heroProducts: Product[] = [];
+  const categories = ['Men', 'Women', 'Unisex', 'Originals'];
+
+  categories.forEach(cat => {
+    const catProducts = state.products.filter(p => p.category === cat).slice(0, 2);
+    heroProducts.push(...catProducts);
+  });
+
+  const slides = heroProducts.map((p, i) => `
     <div class="hero-slide ${i === 0 ? 'active' : ''}" data-index="${i}">
       <div class="hero-slide-bg" style="background-image: url('${p.image}')"></div>
       <div class="hero-slide-overlay"></div>
@@ -369,7 +377,7 @@ function renderHero() {
     </div>
   `).join('');
 
-  const dots = state.products.map((_, i) => `
+  const dots = heroProducts.map((_, i) => `
     <button class="hero-dot ${i === 0 ? 'active' : ''}" data-slide="${i}"></button>
   `).join('');
 
@@ -400,6 +408,9 @@ function initHeroSlider() {
   const slides = document.querySelectorAll<HTMLElement>('.hero-slide');
   const dots = document.querySelectorAll<HTMLElement>('.hero-dot');
   if (!slides.length) return;
+
+  currentSlide = 0; // Reset to first slide on init
+
 
   function goToSlide(idx: number) {
     slides[currentSlide].classList.remove('active');
