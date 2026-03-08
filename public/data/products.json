@@ -171,6 +171,46 @@
         "description": "Our signature masterpiece, born from pure inspiration. A timeless exploration of white musk and crystalline amber. Opening with a flash of rare white truffle and Sicilian bergamot, descending into a heart of black orchid and dark spices. Exclusively ours, unequivocally yours."
     },
     {
+        "id": "o2",
+        "name": "Amber Royale",
+        "category": "Originals",
+        "inspiredBy": "Original Creation",
+        "price": 1499,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 1499
+            },
+            {
+                "ml": 60,
+                "price": 2699
+            },
+            {
+                "ml": 100,
+                "price": 3499
+            }
+        ],
+        "notes": {
+            "top": [
+                "Saffron",
+                "Elemi"
+            ],
+            "heart": [
+                "Benzoin",
+                "Amber"
+            ],
+            "base": [
+                "Vanilla",
+                "Sandalwood"
+            ]
+        },
+        "images": [
+            "private_blend.png"
+        ],
+        "image": "private_blend.png",
+        "description": "A majestic exploration of golden amber and sacred resins. Opening with the spice of saffron and elemi, heart of benzoin and rich amber, resting on a base of creamy vanilla and sandalwood. A signature of pure opulence."
+    },
+    {
         "id": "m2",
         "name": "Bleu de Elixir",
         "category": "Men",
