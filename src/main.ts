@@ -151,7 +151,7 @@ function render() {
             <a href="#" data-route="Men">Men</a>
             <a href="#" data-route="Women">Women</a>
             <a href="#" data-route="Unisex">Unisex</a>
-            <a href="#" data-route="Originals">Originals</a>
+            <a href="#" data-route="PrivateBlends">Private Blends</a>
             <a href="#" data-route="About">About Us</a>
             <a href="#" data-route="Quiz">Scent Quiz</a>
             <a href="#" data-route="Contact">Contact</a>
@@ -185,7 +185,7 @@ function render() {
             <li><a href="#" data-route="Men">Men's Fragrances</a></li>
             <li><a href="#" data-route="Women">Women's Fragrances</a></li>
             <li><a href="#" data-route="Unisex">Unisex Selection</a></li>
-            <li><a href="#" data-route="Originals">Originals / Private Blend</a></li>
+            <li><a href="#" data-route="PrivateBlends">Private Blends Collection</a></li>
           </ul>
         </div>
         <div class="footer-links-group">
@@ -229,7 +229,7 @@ function renderContent() {
     case 'Contact': return renderContact();
     case 'Terms': return renderTerms();
     case 'About': return renderAbout();
-    case 'Originals': return renderOriginals();
+    case 'PrivateBlends': return renderPrivateBlends();
     case 'Quiz': return renderQuiz();
     case 'Wishlist': return renderWishlistPage();
     default: return `
@@ -351,7 +351,7 @@ function renderProductDetail(product: Product) {
 
 function renderHero() {
   const heroProducts: Product[] = [];
-  const categories = ['Men', 'Women', 'Unisex', 'Originals'];
+  const categories = ['Men', 'Women', 'Unisex', 'Private Blends'];
 
   categories.forEach(cat => {
     const catProducts = state.products.filter(p => p.category === cat).slice(0, 2);
@@ -464,18 +464,18 @@ function initHeroSlider() {
 
 
 
-function renderOriginals() {
-  const originals = state.products.filter(p => p.category === 'Originals');
+function renderPrivateBlends() {
+  const products = state.products.filter(p => p.category === 'Private Blends');
   return `
     <section class="page-hero">
       <div class="container">
-        <h1>Grand Originals</h1>
+        <h1>Private Blends</h1>
         <p>Masterpieces born from our own laboratory. Unique, timeless, and strictly original.</p>
       </div>
     </section>
     <section class="container products-section">
       <div class="product-grid">
-        ${renderProductsList(originals)}
+        ${renderProductsList(products)}
       </div>
     </section>
   `;

@@ -1,214 +1,302 @@
 [
     {
-        "id": "m1",
-        "name": "Midnight Oud",
-        "category": "Men",
-        "inspiredBy": "Tom Ford Oud Wood",
-        "price": 999,
+        "id": "p1",
+        "name": "Desert Sovereign",
+        "category": "Private Blends",
+        "inspiredBy": "Private Blend Signature Creation",
+        "price": 449,
         "sizes": [
             {
                 "ml": 30,
-                "price": 999
+                "price": 449
             },
             {
                 "ml": 60,
-                "price": 1799
+                "price": 899
             },
             {
                 "ml": 100,
-                "price": 2499
-            }
-        ],
-        "notes": {
-            "top": [
-                "Cardamom",
-                "Spicy Pepper"
-            ],
-            "heart": [
-                "Oud Wood",
-                "Rosewood"
-            ],
-            "base": [
-                "Sandalwood",
-                "Vetiver",
-                "Amber"
-            ]
-        },
-        "images": [
-            "male.png",
-            "https://images.unsplash.com/photo-1619994403073-2cec844b8e63?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1541643600914-78b084683702?auto=format&fit=crop&w=800&q=80"
-        ],
-        "image": "male.png",
-        "description": "A dark, cinematic descent into refined masculinity. Rare oud wood is masterfully blended with rosewood and cardamom, unfolding into a smoky blend of rare sandalwood and vetiver. An uncompromising masterpiece designed for the commanding presence."
-    },
-    {
-        "id": "w1",
-        "name": "Velvet Rose",
-        "category": "Women",
-        "inspiredBy": "Parfums de Marly Delina",
-        "price": 1099,
-        "sizes": [
-            {
-                "ml": 30,
-                "price": 1099
-            },
-            {
-                "ml": 60,
-                "price": 1999
-            },
-            {
-                "ml": 100,
-                "price": 2699
+                "price": 1899
             }
         ],
         "notes": {
             "top": [
                 "Bergamot",
-                "Nutmeg"
+                "Pink Pepper",
+                "Davana"
             ],
             "heart": [
-                "Turkish Rose",
-                "Peony",
-                "Lily"
+                "Oud",
+                "Amber",
+                "Rosemary"
             ],
             "base": [
-                "Musk",
-                "Cedar",
-                "Amber"
-            ]
-        },
-        "images": [
-            "female.png",
-            "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1592945403407-9caf930ffd56?auto=format&fit=crop&w=800&q=80"
-        ],
-        "image": "female.png",
-        "description": "A sensual floral bouquet dominated by turkish rose, lily of the valley and peony. Luminous and sophisticated. This poetic alchemy lays on the skin like an amber floral and woody breeze."
-    },
-    {
-        "id": "u1",
-        "name": "Azure Coast",
-        "category": "Unisex",
-        "inspiredBy": "MFK Baccarat Rouge 540",
-        "price": 1299,
-        "sizes": [
-            {
-                "ml": 30,
-                "price": 1299
-            },
-            {
-                "ml": 60,
-                "price": 2399
-            },
-            {
-                "ml": 100,
-                "price": 3199
-            }
-        ],
-        "notes": {
-            "top": [
-                "Jasmine",
-                "Saffron"
-            ],
-            "heart": [
-                "Cedarwood",
-                "Ambergris"
-            ],
-            "base": [
-                "Fir Resin",
-                "Oakmoss"
-            ]
-        },
-        "images": [
-            "unisex.png",
-            "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?auto=format&fit=crop&w=800&q=80"
-        ],
-        "image": "unisex.png",
-        "description": "An alchemy of jasmine, saffron, and cedarwood. Ethereal and intense. Aerial notes of jasmine and the radiance of saffron carry woody tones of freshly cut cedar. A graphic, highly condensed signature."
-    },
-    {
-        "id": "o1",
-        "name": "Ethereal Aura",
-        "category": "Originals",
-        "inspiredBy": "Original Creation",
-        "price": 1699,
-        "sizes": [
-            {
-                "ml": 30,
-                "price": 1699
-            },
-            {
-                "ml": 60,
-                "price": 2999
-            },
-            {
-                "ml": 100,
-                "price": 3999
-            }
-        ],
-        "notes": {
-            "top": [
-                "White Truffle",
-                "Bergamot"
-            ],
-            "heart": [
-                "Black Orchid",
-                "Dark Spices"
-            ],
-            "base": [
-                "White Musk",
-                "Crystalline Amber"
-            ]
-        },
-        "images": [
-            "private_blend.png",
-            "https://images.unsplash.com/photo-1500217052183-bc01eee1a74e?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=800&q=80"
-        ],
-        "image": "private_blend.png",
-        "description": "Our signature masterpiece, born from pure inspiration. A timeless exploration of white musk and crystalline amber. Opening with a flash of rare white truffle and Sicilian bergamot, descending into a heart of black orchid and dark spices. Exclusively ours, unequivocally yours."
-    },
-    {
-        "id": "o2",
-        "name": "Amber Royale",
-        "category": "Originals",
-        "inspiredBy": "Original Creation",
-        "price": 1499,
-        "sizes": [
-            {
-                "ml": 30,
-                "price": 1499
-            },
-            {
-                "ml": 60,
-                "price": 2699
-            },
-            {
-                "ml": 100,
-                "price": 3499
-            }
-        ],
-        "notes": {
-            "top": [
-                "Saffron",
-                "Elemi"
-            ],
-            "heart": [
-                "Benzoin",
-                "Amber"
-            ],
-            "base": [
-                "Vanilla",
-                "Sandalwood"
+                "Leather",
+                "Vetiver",
+                "Musk"
             ]
         },
         "images": [
             "private_blend.png"
         ],
         "image": "private_blend.png",
-        "description": "A majestic exploration of golden amber and sacred resins. Opening with the spice of saffron and elemi, heart of benzoin and rich amber, resting on a base of creamy vanilla and sandalwood. A signature of pure opulence."
+        "description": "A regal fragrance born from the vast silence of desert sands. Bright bergamot and aromatic spices rise into a powerful heart of oud and amber before settling into smoky leather and vetiver. Majestic, mysterious, and commanding."
+    },
+    {
+        "id": "p2",
+        "name": "Smoked Ember",
+        "category": "Private Blends",
+        "inspiredBy": "Private Blend Signature Creation",
+        "price": 449,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 449
+            },
+            {
+                "ml": 60,
+                "price": 899
+            },
+            {
+                "ml": 100,
+                "price": 1899
+            }
+        ],
+        "notes": {
+            "top": [
+                "Plum",
+                "Pineapple",
+                "Bergamot"
+            ],
+            "heart": [
+                "Bay Leaf",
+                "Geranium",
+                "Jasmine"
+            ],
+            "base": [
+                "Tobacco",
+                "Sandalwood",
+                "Patchouli"
+            ]
+        },
+        "images": [
+            "private_blend.png"
+        ],
+        "image": "private_blend.png",
+        "description": "A smoldering fragrance that balances fruit brightness with deep smoky warmth. Juicy plum and pineapple ignite the opening before tobacco and woods create a rich, sensual trail. Bold, addictive, and unforgettable."
+    },
+    {
+        "id": "p3",
+        "name": "Amber Honey Elixir",
+        "category": "Private Blends",
+        "inspiredBy": "Private Blend Signature Creation",
+        "price": 449,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 449
+            },
+            {
+                "ml": 60,
+                "price": 899
+            },
+            {
+                "ml": 100,
+                "price": 1899
+            }
+        ],
+        "notes": {
+            "top": [
+                "Cinnamon",
+                "Honey",
+                "Osmanthus"
+            ],
+            "heart": [
+                "Benzoin",
+                "Ambergris",
+                "Labdanum"
+            ],
+            "base": [
+                "Vanilla",
+                "Tonka",
+                "Patchouli"
+            ]
+        },
+        "images": [
+            "private_blend.png"
+        ],
+        "image": "private_blend.png",
+        "description": "A golden nectar of warmth and sweetness. Rich honey and cinnamon melt into glowing amber resins and creamy vanilla. Luxurious, comforting, and irresistibly smooth."
+    },
+    {
+        "id": "p4",
+        "name": "Power Accord",
+        "category": "Private Blends",
+        "inspiredBy": "Private Blend Signature Creation",
+        "price": 449,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 449
+            },
+            {
+                "ml": 60,
+                "price": 899
+            },
+            {
+                "ml": 100,
+                "price": 1899
+            }
+        ],
+        "notes": {
+            "top": [
+                "Frankincense",
+                "Cardamom",
+                "Bergamot"
+            ],
+            "heart": [
+                "Saffron",
+                "Rose",
+                "Patchouli"
+            ],
+            "base": [
+                "Oud",
+                "Amber",
+                "Vanilla"
+            ]
+        },
+        "images": [
+            "private_blend.png"
+        ],
+        "image": "private_blend.png",
+        "description": "An intense symphony of spices, resins, and deep woods. Frankincense and cardamom ignite the opening before saffron and rose create a luxurious heart. The powerful base of oud and amber leaves an unforgettable signature."
+    },
+    {
+        "id": "p5",
+        "name": "Satin Royale",
+        "category": "Private Blends",
+        "inspiredBy": "Private Blend Signature Creation",
+        "price": 449,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 449
+            },
+            {
+                "ml": 60,
+                "price": 899
+            },
+            {
+                "ml": 100,
+                "price": 1899
+            }
+        ],
+        "notes": {
+            "top": [
+                "Rose",
+                "Violet",
+                "Strawberry"
+            ],
+            "heart": [
+                "Turkish Rose",
+                "Floral",
+                "Honey"
+            ],
+            "base": [
+                "Oud",
+                "Vanilla",
+                "Amber"
+            ]
+        },
+        "images": [
+            "private_blend.png"
+        ],
+        "image": "private_blend.png",
+        "description": "A velvety rose fragrance wrapped in sweet luxury. Juicy strawberry and delicate violet bloom into opulent Turkish rose before melting into creamy vanilla and oud. Soft, sensual, and regal."
+    },
+    {
+        "id": "p6",
+        "name": "Amber Code",
+        "category": "Private Blends",
+        "inspiredBy": "Private Blend Signature Creation",
+        "price": 449,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 449
+            },
+            {
+                "ml": 60,
+                "price": 899
+            },
+            {
+                "ml": 100,
+                "price": 1899
+            }
+        ],
+        "notes": {
+            "top": [
+                "Ambroxan",
+                "Bergamot",
+                "Orris"
+            ],
+            "heart": [
+                "Jasmine",
+                "Amber",
+                "Woods"
+            ],
+            "base": [
+                "Patchouli",
+                "Musk",
+                "Cashalox"
+            ]
+        },
+        "images": [
+            "private_blend.png"
+        ],
+        "image": "private_blend.png",
+        "description": "A modern amber fragrance built on depth and elegance. Bright citrus and ambroxan evolve into smooth florals and glowing woods. Sophisticated, mysterious, and deeply addictive."
+    },
+    {
+        "id": "p7",
+        "name": "Venom Oud",
+        "category": "Private Blends",
+        "inspiredBy": "Private Blend Signature Creation",
+        "price": 449,
+        "sizes": [
+            {
+                "ml": 30,
+                "price": 449
+            },
+            {
+                "ml": 60,
+                "price": 899
+            },
+            {
+                "ml": 100,
+                "price": 1899
+            }
+        ],
+        "notes": {
+            "top": [
+                "Saffron",
+                "Black Pepper"
+            ],
+            "heart": [
+                "Oud",
+                "Patchouli"
+            ],
+            "base": [
+                "Amber",
+                "Woods",
+                "Musk"
+            ]
+        },
+        "images": [
+            "private_blend.png"
+        ],
+        "image": "private_blend.png",
+        "description": "Dark, intense, and dangerously seductive. Fiery saffron and pepper ignite the senses before deep oud and patchouli dominate the heart. A smoky amber base leaves a bold and unforgettable trail."
     },
     {
         "id": "m2",
