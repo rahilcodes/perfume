@@ -126,8 +126,10 @@ async function init() {
   state.products = shuffleArray(data);
   render();
 
-  // Auto-start ambient music (plays immediately or on first interaction)
-  initAmbientAudio();
+  // Auto-start ambient music after 3 seconds
+  setTimeout(() => {
+    initAmbientAudio();
+  }, 3000);
 
   // Initialize WebGL Hero
   const heroContainer = document.querySelector<HTMLElement>('#hero-canvas-container');
@@ -215,7 +217,7 @@ function render() {
     </footer>
 
     <!-- Floating Buttons -->
-    <a class="wa-float" href="https://wa.me/918125320728" target="_blank" title="Chat on WhatsApp">
+    <a class="wa-float" href="https://wa.me/919347820728" target="_blank" title="Chat on WhatsApp">
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-13.4 8.38 8.38 0 0 1 3.8.9L21 3z"/></svg>
     </a>
     <button class="ambient-btn js-ambient-toggle ${ambientPlaying ? 'playing' : ''}" title="Ambient Music">
@@ -556,7 +558,7 @@ function renderContact() {
               <label>Message</label>
               <textarea rows="5" placeholder="How can we help?"></textarea>
             </div>
-            <a href="https://wa.me/918125320728" target="_blank" class="btn btn-primary" style="display:block;text-align:center;text-decoration:none">Send via WhatsApp</a>
+            <a href="https://wa.me/919347820728" target="_blank" class="btn btn-primary" style="display:block;text-align:center;text-decoration:none">Send via WhatsApp</a>
           </form>
         </div>
         <div class="contact-info reveal" style="animation-delay: 0.2s">
@@ -584,7 +586,7 @@ function renderContact() {
             </div>
             <div>
               <h3>WhatsApp</h3>
-              <p><a href="https://wa.me/918125320728" target="_blank" style="color:var(--accent-gold);text-decoration:none">+91 81253 20728</a></p>
+              <p><a href="https://wa.me/919347820728" target="_blank" style="color:var(--accent-gold);text-decoration:none">+91 93478 20728</a></p>
             </div>
           </div>
           <div class="contact-info-item">
@@ -1411,7 +1413,7 @@ Total: ${formatted}${giftWrapAddon}
 
 Please share the details for payment.`;
   const encoded = encodeURIComponent(message);
-  window.open(`https://wa.me/918125320728?text=${encoded}`, '_blank');
+  window.open(`https://wa.me/919347820728?text=${encoded}`, '_blank');
 }
 
 function updateGridQuantity(id: string, change: number) {
