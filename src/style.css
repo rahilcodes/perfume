@@ -2356,7 +2356,7 @@ footer {
 }
 
 .footer-bottom {
-  padding-top: 2.5rem;
+  padding: 2.5rem 0;
   border-top: 1px solid var(--glass-border);
   display: flex;
   justify-content: space-between;
@@ -2364,6 +2364,22 @@ footer {
   color: var(--text-secondary);
   font-size: 0.8rem;
   letter-spacing: 0.05em;
+}
+
+.footer-credit {
+  font-size: 0.75rem;
+  opacity: 0.5;
+}
+
+.footer-credit a {
+  color: var(--accent-gold);
+  opacity: 0.8;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.footer-credit a:hover {
+  opacity: 1;
 }
 
 .footer-payment-icons {

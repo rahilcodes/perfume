@@ -224,8 +224,8 @@ function render() {
         </div>
       </div>
       <div class="container footer-bottom">
-        <p>&copy; 2026 ELIXIR ARTISTRY. All Rights Reserved.</p>
-        <p style="font-size:0.75rem;opacity:0.5;margin-top:0.5rem">Designed &amp; Developed by <a href="https://creativals.com" target="_blank" style="color:var(--accent-gold);opacity:0.8;text-decoration:none;transition:opacity 0.3s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Creativals</a></p>
+        <p class="footer-copyright">&copy; 2026 ELIXIR ARTISTRY. All Rights Reserved.</p>
+        <p class="footer-credit">Designed &amp; Developed by <a href="https://creativals.com" target="_blank">Creativals</a></p>
       </div>
     </footer>
 
