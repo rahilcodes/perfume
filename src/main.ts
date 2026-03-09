@@ -60,27 +60,42 @@ function initAmbientAudio() {
   ambientAudio = new Audio('music.mp3');
   ambientAudio.loop = true;
   ambientAudio.volume = 0.3;
-  // Try to play immediately
-  ambientAudio.play().then(() => {
-    ambientPlaying = true;
-    updateAmbientBtn();
-    showMusicToast();
-  }).catch(() => {
-    // Blocked by browser — play on first interaction
-    const startOnInteraction = () => {
+
+  let canPlayNow = false;
+
+  const onInteraction = () => {
+    if (canPlayNow) {
+      if (!ambientPlaying) {
+        ambientAudio!.play().then(() => {
+          ambientPlaying = true;
+          updateAmbientBtn();
+          showMusicToast();
+          removeListeners();
+        }).catch(() => { });
+      }
+    } else {
+      // Pre-authorize the audio context for later use
       ambientAudio!.play().then(() => {
-        ambientPlaying = true;
-        updateAmbientBtn();
-        showMusicToast();
-      });
-      document.removeEventListener('click', startOnInteraction);
-      document.removeEventListener('keydown', startOnInteraction);
-      document.removeEventListener('scroll', startOnInteraction);
-    };
-    document.addEventListener('click', startOnInteraction, { once: true });
-    document.addEventListener('keydown', startOnInteraction, { once: true });
-    document.addEventListener('scroll', startOnInteraction, { once: true });
+        ambientAudio!.pause();
+      }).catch(() => { });
+    }
+  };
+
+  const removeListeners = () => {
+    ['click', 'keydown', 'scroll', 'touchstart'].forEach(type => {
+      document.removeEventListener(type, onInteraction);
+    });
+  };
+
+  ['click', 'keydown', 'scroll', 'touchstart'].forEach(type => {
+    document.addEventListener(type, onInteraction);
   });
+
+  // Enforce 3-second delay for the actual music start
+  setTimeout(() => {
+    canPlayNow = true;
+    onInteraction(); // Attempt to play now
+  }, 3000);
 }
 
 function updateAmbientBtn() {
@@ -126,10 +141,8 @@ async function init() {
   state.products = shuffleArray(data);
   render();
 
-  // Auto-start ambient music after 3 seconds
-  setTimeout(() => {
-    initAmbientAudio();
-  }, 3000);
+  // Initialize ambient music logic (with 3s delay internal to function)
+  initAmbientAudio();
 
   // Initialize WebGL Hero
   const heroContainer = document.querySelector<HTMLElement>('#hero-canvas-container');
