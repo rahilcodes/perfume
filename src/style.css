@@ -1096,7 +1096,7 @@ footer {
   z-index: 2;
   background: var(--bg-primary);
   /* Masks footer during scroll */
-  margin-bottom: 300px;
+  margin-bottom: 400px;
   /* Exact height of footer to allow scroll over it */
 }
 
@@ -1105,7 +1105,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 300px;
+  height: 400px;
   /* Fixed height for reveal */
   z-index: 1;
   display: flex;
@@ -2293,7 +2293,7 @@ body.light-mode .product-detail-info h2 {
    FOOTER
    ========================================== */
 footer {
-  padding: 10rem 0 4rem;
+  padding: 4rem 0 2rem;
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
   border-top: 1px solid var(--glass-border);
@@ -3081,6 +3081,7 @@ body.light-mode footer {
 .ambient-btn.playing {
   color: var(--accent-gold);
 }
+
 /* --- Intensity Section (Product Detail) --- */
 .intensity-section {
   margin: 3rem 0;
