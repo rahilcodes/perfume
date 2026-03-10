@@ -890,9 +890,9 @@ function bindEvents() {
       const route = (e.currentTarget as HTMLElement).getAttribute('data-route');
       if (route) {
         AnimationController.pageTransition(() => {
-          state.selectedProduct = null; // Clear product view on nav
-          state.quantity = 1; // reset quantity
-          state.searchQuery = ''; // reset search
+          state.selectedProduct = null;
+          state.quantity = 1;
+          state.searchQuery = '';
           if (['Home', 'Men', 'Women', 'Unisex', 'Originals'].includes(route)) {
             state.currentCategory = route === 'Home' ? 'All' : route;
           } else {
@@ -913,30 +913,11 @@ function bindEvents() {
       const grid = document.getElementById('main-product-grid');
       if (grid) {
         grid.innerHTML = renderProducts();
-        initInteractions(); // rebind interactions for new DOM nodes
+        bindGridEvents(); // re-bind events for new DOM nodes
+        initInteractions(); // rebind interactions
       }
     });
   }
-
-  // Product Card Clicks (View Details Navigation)
-  document.querySelectorAll('.js-view-details').forEach(el => {
-    el.addEventListener('click', (e) => {
-      // Find closest card to get ID
-      const card = (e.currentTarget as HTMLElement).closest('.js-product-card');
-      if (!card) return;
-
-      const id = card.getAttribute('data-id');
-      const product = state.products.find(p => p.id === id);
-      if (product) {
-        AnimationController.pageTransition(() => {
-          state.selectedProduct = product;
-          state.quantity = 1;
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-          render();
-        });
-      }
-    });
-  });
 
   // Quantity Management (Detail Page)
   const btnMinus = document.querySelector('.js-qty-minus');
@@ -945,23 +926,6 @@ function bindEvents() {
     btnMinus.addEventListener('click', () => updateQuantity(-1));
     btnPlus.addEventListener('click', () => updateQuantity(1));
   }
-
-  // Quantity Management (Grid)
-  document.querySelectorAll('.js-grid-qty-minus').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation(); // Prevent opening detail view
-      const id = (e.currentTarget as HTMLElement).getAttribute('data-id');
-      if (id) updateGridQuantity(id, -1);
-    });
-  });
-
-  document.querySelectorAll('.js-grid-qty-plus').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const id = (e.currentTarget as HTMLElement).getAttribute('data-id');
-      if (id) updateGridQuantity(id, 1);
-    });
-  });
 
   // WhatsApp Checkout (Detail Page)
   const btnBuy = document.querySelector('.js-buy-whatsapp');
@@ -972,72 +936,12 @@ function bindEvents() {
     });
   }
 
-  // WhatsApp Checkout (Grid)
-  document.querySelectorAll('.js-grid-buy-whatsapp').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const id = (e.currentTarget as HTMLElement).getAttribute('data-id');
-      if (id) {
-        const p = state.products.find(prod => prod.id === id);
-        const qty = state.gridQuantities[id] || 1;
-        const ml = state.gridSizes[id] || (p ? p.sizes[0].ml : 50);
-        if (p) triggerWhatsApp(p, qty, ml);
-      }
-    });
-  });
-
   // Size Selection (Detail Page)
   document.querySelectorAll('.js-detail-size').forEach(btn => {
     btn.addEventListener('click', (e) => {
       const ml = parseInt((e.currentTarget as HTMLElement).getAttribute('data-ml') || '50');
       state.selectedSize = ml;
       render();
-    });
-  });
-
-  // Size Selection (Grid)
-  document.querySelectorAll('.js-grid-size').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const id = (e.currentTarget as HTMLElement).getAttribute('data-id');
-      const ml = parseInt((e.currentTarget as HTMLElement).getAttribute('data-ml') || '50');
-      if (id) {
-        state.gridSizes[id] = ml;
-        // Update price in grid immediately
-        const p = state.products.find(prod => prod.id === id);
-        if (p) {
-          const qty = state.gridQuantities[id] || 1;
-          const sizeObj = p.sizes.find(s => s.ml === ml) || p.sizes[0];
-          const totalPrice = sizeObj.price * qty;
-          const formattedPrice = new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(totalPrice);
-          document.getElementById(`grid-price-${id}`)!.textContent = formattedPrice;
-
-          // Update active state of buttons
-          const card = (e.currentTarget as HTMLElement).closest('.product-card');
-          if (card) {
-            card.querySelectorAll('.js-grid-size').forEach(b => b.classList.remove('active'));
-            (e.currentTarget as HTMLElement).classList.add('active');
-          }
-        }
-      }
-    });
-  });
-
-  // --- Wishlist (Card grid) ---
-  document.querySelectorAll('.js-wishlist-card').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const id = (e.currentTarget as HTMLElement).getAttribute('data-id')!;
-      toggleWishlist(id);
-      const isNowWishlisted = state.wishlist.includes(id);
-      (e.currentTarget as HTMLElement).textContent = isNowWishlisted ? '♥' : '♡';
-      (e.currentTarget as HTMLElement).classList.toggle('active', isNowWishlisted);
-      // Update counter badge
-      const badge = document.querySelector('.wishlist-count');
-      if (badge) {
-        badge.textContent = state.wishlist.length.toString();
-        badge.classList.toggle('visible', state.wishlist.length > 0);
-      }
     });
   });
 
@@ -1194,6 +1098,103 @@ function bindEvents() {
           window.scrollTo({ top: 0, behavior: 'smooth' });
           render();
         });
+      }
+    });
+  });
+
+  bindGridEvents();
+}
+
+function bindGridEvents() {
+  // Product Card Clicks (View Details Navigation)
+  document.querySelectorAll('.js-view-details').forEach(el => {
+    el.addEventListener('click', (e) => {
+      const card = (e.currentTarget as HTMLElement).closest('.js-product-card');
+      if (!card) return;
+      const id = card.getAttribute('data-id');
+      const product = state.products.find(p => p.id === id);
+      if (product) {
+        AnimationController.pageTransition(() => {
+          state.selectedProduct = product;
+          state.quantity = 1;
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          render();
+        });
+      }
+    });
+  });
+
+  // Quantity Management (Grid)
+  document.querySelectorAll('.js-grid-qty-minus').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = (e.currentTarget as HTMLElement).getAttribute('data-id');
+      if (id) updateGridQuantity(id, -1);
+    });
+  });
+
+  document.querySelectorAll('.js-grid-qty-plus').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = (e.currentTarget as HTMLElement).getAttribute('data-id');
+      if (id) updateGridQuantity(id, 1);
+    });
+  });
+
+  // WhatsApp Checkout (Grid)
+  document.querySelectorAll('.js-grid-buy-whatsapp').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = (e.currentTarget as HTMLElement).getAttribute('data-id');
+      if (id) {
+        const p = state.products.find(prod => prod.id === id);
+        const qty = state.gridQuantities[id] || 1;
+        const ml = state.gridSizes[id] || (p ? p.sizes[0].ml : 50);
+        if (p) triggerWhatsApp(p, qty, ml);
+      }
+    });
+  });
+
+  // Size Selection (Grid)
+  document.querySelectorAll('.js-grid-size').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = (e.currentTarget as HTMLElement).getAttribute('data-id');
+      const ml = parseInt((e.currentTarget as HTMLElement).getAttribute('data-ml') || '50');
+      if (id) {
+        state.gridSizes[id] = ml;
+        const p = state.products.find(prod => prod.id === id);
+        if (p) {
+          const qty = state.gridQuantities[id] || 1;
+          const sizeObj = p.sizes.find(s => s.ml === ml) || p.sizes[0];
+          const totalPrice = sizeObj.price * qty;
+          const formattedPrice = new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(totalPrice);
+          const priceEl = document.getElementById(`grid-price-${id}`);
+          if (priceEl) priceEl.textContent = formattedPrice;
+
+          const card = (e.currentTarget as HTMLElement).closest('.product-card');
+          if (card) {
+            card.querySelectorAll('.js-grid-size').forEach(b => b.classList.remove('active'));
+            (e.currentTarget as HTMLElement).classList.add('active');
+          }
+        }
+      }
+    });
+  });
+
+  // Wishlist (Grid)
+  document.querySelectorAll('.js-wishlist-card').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = (e.currentTarget as HTMLElement).getAttribute('data-id')!;
+      toggleWishlist(id);
+      const isNowWishlisted = state.wishlist.includes(id);
+      (e.currentTarget as HTMLElement).textContent = isNowWishlisted ? '♥' : '♡';
+      (e.currentTarget as HTMLElement).classList.toggle('active', isNowWishlisted);
+      const badge = document.querySelector('.wishlist-count');
+      if (badge) {
+        badge.textContent = state.wishlist.length.toString();
+        badge.classList.toggle('visible', state.wishlist.length > 0);
       }
     });
   });
