@@ -1271,6 +1271,9 @@ function advanceQuiz(step: number, value: string) {
     // Determine result
     const recommendation = getQuizRecommendation(quizAnswers);
     steps[step].classList.remove('active');
+    dots[step].classList.remove('active'); // Turn off 3rd dot
+    dots[steps.length - 1].classList.add('active'); // Turn on 4th (result) dot
+
     const resultStep = steps[steps.length - 1] as HTMLElement;
     resultStep.classList.add('active');
 
@@ -1307,14 +1310,50 @@ function advanceQuiz(step: number, value: string) {
 }
 
 function getQuizRecommendation(answers: string[]): Product | null {
-  if (answers.includes('wood') || answers.includes('masculine')) {
-    return state.products.find(p => p.id === 'm1') || null;
-  } else if (answers.includes('floral') || answers.includes('feminine')) {
-    return state.products.find(p => p.id === 'w1') || null;
-  } else if (answers.includes('fresh') || answers.includes('unisex')) {
-    return state.products.find(p => p.id === 'u1') || null;
+  const profile = answers[0]; // wood, floral, fresh, oriental
+  const audience = answers[1]; // masculine, feminine, unisex
+
+  // 1. Filter by gender/category first
+  let filtered = state.products;
+  if (audience === 'masculine') {
+    filtered = filtered.filter(p => p.category === 'Men');
+  } else if (audience === 'feminine') {
+    filtered = filtered.filter(p => p.category === 'Women');
+  } else if (audience === 'unisex') {
+    filtered = filtered.filter(p => p.category === 'Unisex' || p.category === 'Private Blends');
   }
-  return state.products.find(p => p.id === 'o1') || null;
+
+  // 2. Filter by scent profile notes
+  let matches = filtered.filter(p => {
+    const allNotes = [
+      ...(p.notes.top || []),
+      ...(p.notes.heart || []),
+      ...(p.notes.base || [])
+    ].map(n => n.toLowerCase());
+
+    if (profile === 'wood') {
+      return allNotes.some(n => n.includes('wood') || n.includes('oud') || n.includes('cedar') || n.includes('vetiver') || n.includes('smoke') || n.includes('leather'));
+    }
+    if (profile === 'floral') {
+      return allNotes.some(n => n.includes('rose') || n.includes('jasmine') || n.includes('lily') || n.includes('iris') || n.includes('floral') || n.includes('tuberose'));
+    }
+    if (profile === 'fresh') {
+      return allNotes.some(n => n.includes('fresh') || n.includes('citrus') || n.includes('lemon') || n.includes('bergamot') || n.includes('aquatic') || n.includes('sea') || n.includes('mint'));
+    }
+    if (profile === 'oriental') {
+      return allNotes.some(n => n.includes('amber') || n.includes('vanilla') || n.includes('spice') || n.includes('oriental') || n.includes('incense') || n.includes('musk'));
+    }
+    return true;
+  });
+
+  // Fallback to audience-only if no notes match
+  if (matches.length === 0) matches = filtered;
+
+  // Absolute fallback to all products
+  if (matches.length === 0) matches = state.products;
+
+  // Pick a random match from the quality selection
+  return matches[Math.floor(Math.random() * matches.length)] || null;
 }
 
 // ==========================================
